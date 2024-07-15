@@ -1,0 +1,54 @@
+
+export default function Footer(){
+
+return(
+    <footer>
+        <div class="footer-info">
+            <div class="footer-brand">
+              <div class="footer-logo">
+                <img src="/src/assets/image/footerLogo.png" alt="Logo Digital Store" class="logo"/>
+                <h1>Digital Store</h1>
+              </div>
+              <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+
+              </div>
+                <div class="social-links">
+                    <ul>
+                        <li><a href="#"><img src="/src/assets/image/footerFacebook.png" alt=""/></a></li>
+                        <li><a href="#"><img src="/src/assets/image/instagramLogo.png" alt=""/></a></li>
+                        <li><a href="#"><img src="/src/assets/image/twitterLogo.png" alt=""/></a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <ul class="list-group-informations">
+              <h2>Informação</h2>
+              <li><a href="#">Sobre Drip Store</a></li>
+              <li><a href="#">Segurança</a></li>
+              <li><a href="#">Wishlist</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Trabalhe conosco</a></li>
+              <li><a href="#">Meus Pedidos</a></li>
+            </ul> 
+
+            <ul class="list-group-departments">
+              <h2>Categorias</h2>
+              <li><a href="#">Camisetas</a></li>
+              <li><a href="#">Calças</a></li>
+              <li><a href="#">Bonés</a></li>
+              <li><a href="#">Headphones</a></li>
+              <li><a href="#">Tênis</a></li>
+            </ul> 
+            <ul class="list-group-contact">
+              <h2>Contato</h2>
+              <li class="adress">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</li>
+              <li>(85) 3051-3411</li>
+            </ul>
+
+        </div>
+        <div class="line"></div>
+        <h3>@ 2022 Digital College</h3>
+    </footer>
+)
+}
