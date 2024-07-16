@@ -7,7 +7,7 @@ import './Components/Footer.css'
 
 
 import Header from './Components/Header'
-import './Components/header.css'
+import './Components/Header.css'
 
 import Logo from './Components/Logo'
 import './Components/Logo.css'
