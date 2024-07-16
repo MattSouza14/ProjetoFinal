@@ -1,3 +1,6 @@
+main{
+    background-color: #E5E5E5;
+}
 .products-grid{
     display: grid;
     grid-template-columns: 292px 292px 292px;
@@ -6,7 +9,7 @@
 
     padding: 56px 100px 160px 28px;
 }
-.box{
+/* .box{
     
     width: 308px;
     height: 720px;
@@ -37,7 +40,7 @@
 
     margin-top: 20px;
 
-}
+} */
 
 
 
@@ -54,7 +57,7 @@
 }
 
 .image-container img {
-    margin: 39px 20px 42px -10px;
+    margin: -3px 20px 42px -26px;
     
 }
 .overlay {

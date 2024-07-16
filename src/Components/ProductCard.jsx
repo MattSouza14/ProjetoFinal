@@ -1,11 +1,12 @@
 import '../assets/tenisCardUm.png'
-function ProdutosCard(){
+function ProductCard(nome, imagem, descricao, precoAntigo, precoNovo, desconto){
     return(
-       <section id="products">    
+      <main>
+ <section id="products">    
          <div class="products-grid">
             <div class="card-container">
                 <div class="image-container">
-                 <h3 class="overlay">30% OFF</h3>
+                 
                   <img
                     src="src\assets\tenisCardUm.png"
                     alt="imagem"
@@ -48,7 +49,9 @@ function ProdutosCard(){
 
        </section>
         
+      </main>
+      
     )
 }
 
-export default ProdutosCard
+export default ProductCard

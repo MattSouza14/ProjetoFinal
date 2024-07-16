@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Footer from './Components/Footer'
 import './Components/Footer.css'
 
-import './App.css'
+
 
 
 import Header from './Components/Header'
@@ -12,7 +12,7 @@ import './Components/header.css'
 import Logo from './Components/Logo'
 import './Components/Logo.css'
 
-import ProdutosCard from './Components/ProductCard'
+import ProductCard from './Components/ProductCard'
 import './Components/ProductCard.css'
 
 
@@ -22,14 +22,14 @@ function App() {
 
   return (
     <>
-   <Header></Header>
+    <Header></Header>
 
 
-   <Logo></Logo>
+  <Logo></Logo>
 
-   <ProdutosCard></ProdutosCard> 
+   <ProductCard ></ProductCard> 
   
-    <Footer></Footer>
+   <Footer></Footer>
 
       
 
