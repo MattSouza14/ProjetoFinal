@@ -1,83 +1,111 @@
-:root{
-    --dark-gray: #1F1F1F;
-    --dark-gray-2: #474747;
-    --dark-gray-3: #666666;
+.products-grid{
+    display: grid;
+    grid-template-columns: 292px 292px 292px;
 
-    --light-gray: #8F8F8F;
-    --light-gray-2: #CCCCCC;
-    --light-gray-3: #F5F5F5;
-    --white: #FFFFFF;
+    gap: 14px;
 
-    --primary: #C92071;
-    --secondary: #B5B6F2;
-    --tertiary: #991956;
-    
-    --error: #EE4266;
-    --success: #52CA76;
-    --warning: #F6AA1C;
-
-    /* image */
-    --primary-gradient: linear-gradient(to bottom, #C92071, #EDABCA);
-    --secondary-gradient: linear-gradient(to bottom, #B5B6F2, #EFEFFF);
-    
+    padding: 56px 100px 160px 28px;
 }
+.box{
+    
+    width: 308px;
+    height: 720px;
 
+    background: var(--white);
 
+    padding: 30px;
 
-.cardsProdutos {
-    margin-left: 90px;
-    display: flex;
-    justify-content: space-between;
-    width: 1235px;
-    flex-wrap: wrap;
-
-}
-.produtoImage {
-    display: flex;
-    flex-direction: column;
-    width: 290px;
-    height: 320px;
-    margin-top: 30px;
     border-radius: 4px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06); padding: 20px;
-
-    img {
-        margin: 30px 10px;
-        
-    }
 }
-.produtoDescricao {
+.box h2{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.75px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 110px;
+    color: var(--dark-gray-2);
+
+    margin: 20px auto;
+}
+.box h3{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+
+    color: var(--dark-gray-2);
+
     margin-top: 20px;
-    h4 {
-        font-weight: 700px;
-        font-size: 12px;
-        color: var(--light-gray);
-    }
-    h3 {
-        font-weight: 400;
-        font-size: 24px;
-        color: var(--dark-gray-2);
-    }
-    .old-price {
-        font-weight: 400;
-        font-size: 24px;
-        color: var(--light-gray);
-        margin-right: 10px;
-    }
-    .new-price {
-        font-weight: 700;
-        font-size: 24px;
-        color: var(--dark-gray);
-    }
+
 }
 
-.semDesconto {
-    justify-content: center;
+
+
+.card-container{
+    width: 292px;
+    height: 439px;
+    /* border: 1px solid black; */
+}
+
+.image-container{
+    background-color: var(--white);
+    width: 292px;
+    height: 321px;
+}
+
+.image-container img {
+    margin: 39px 20px 42px -10px;
+    
+}
+.overlay {
+    width: 96px;
+    height: 32px;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+    background: #E7FF86;
+    color:var(--dark-gray-2);
+
+    padding: 5px 15px;
+
+    border-radius: 29px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+}
+.title{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    color: var(--light-gray);
+    margin: 18px 0 0 0;
+    letter-spacing: 0.75px;
+}
+
+.descricao {
+    font-size: 24px;
+    color: var(--dark-gray-2);
+    line-height: 24px;
+    letter-spacing: 0.75px;
+   
+
+}
+.desconto  {
+    font-size: 24px;
+    color: var(--dark-gray);
+    line-height: 38px;
+    font-weight: bold;
+    letter-spacing: 0.75px;
+    
+    
+}
+.old-price{
+    font-size: 24px;
+    color: var(--light-gray);
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    margin-right: 8px;
+
 }

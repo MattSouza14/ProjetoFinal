@@ -1,115 +1,53 @@
+import '../assets/tenisCardUm.png'
 function ProdutosCard(){
     return(
-       
-        <div class="cardsProdutos">
-            <div>
-                <div class="produtoImage">
-                    <p class="descontos">30% OFF</p>
-                    <img src="/src/assets/image/tenisCard2.png" alt="imagem" class="img"/>
+       <section id="products">    
+         <div class="products-grid">
+            <div class="card-container">
+                <div class="image-container">
+                 <h3 class="overlay">30% OFF</h3>
+                  <img
+                    src="src\assets\tenisCardUm.png"
+                    alt="imagem"
+                    class="img"
+                  />
                 </div>
-                <div class="produtoDescricao">
-                    <h4>Tênis</h4>
-                    <h3>K-Swiss V8 - Masculino</h3>
-                    <p class="price">
-                        <span class="old-price"><s>$200</s></span>
-                        <span class="new-price">$100</span>
-                    </p>
+                <div class="description">
+                  <h4 class="title">Tênis</h4>
+                  <p class="descricao">K-Swiss V8 - Masculino</p>
+                  <p class="price">
+                    <span class="old-price"><s>$200</s></span>
+                    <span class="desconto">$100</span>
+                  </p>
                 </div>
+              </div>
+            
+              
+              <div class="card-container">
+                <div class="image-container">
+                  <img
+                    src="src\assets\tenisCardUm.png"
+                    alt="imagem"
+                    class="img"
+                  />
+                </div>
+                <div class="description">
+                  <h4 class="title">Tênis</h4>
+                  <p class="descricao">K-Swiss V8 - Masculino</p>
+                  <p class="price">
+                    <span class="old-price"><s>$200</s></span>
+                    <span class="desconto">$100</span>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div>
-                <div class="produtoImage">
-                    <p class="descontos">30% OFF</p>
-                    <img src="/src/assets/image/tenisCard2.png" alt="imagem" class="img"/>
-                </div>
-                <div class="produtoDescricao">
-                    <h4>Tênis</h4>
-                    <h3>K-Swiss V8 - Masculino</h3>
-                    <p class="price">
-                        <span class="old-price"><s>$200</s></span>
-                        <span class="new-price">$100</span>
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div class="produtoImage semDesconto">
-                    <img src="/src/assets/image/tenisCard2.png" alt="imagem" class="img"/>
-                </div>
-                <div class="produtoDescricao">
-                    <h4>Tênis</h4>
-                    <h3>K-Swiss V8 - Masculino</h3>
-                    <p class="price">
-                        <span class="old-price"><s>$200</s></span>
-                        <span class="new-price">$100</span>
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div class="produtoImage semDesconto">
-                    <img src="/src/assets/image/tenisCard2.png" alt="imagem" class="img"/>
-                </div>
-                <div class="produtoDescricao">
-                    <h4>Tênis</h4>
-                    <h3>K-Swiss V8 - Masculino</h3>
-                    <p class="price">
-                        <span class="old-price"><s>$200</s></span>
-                        <span class="new-price">$100</span>
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div class="produtoImage semDesconto">
-                    <img src="/src/assets/image/tenisCard2.png" alt="imagem" class="img"/>
-                </div>
-                <div class="produtoDescricao">
-                    <h4>Tênis</h4>
-                    <h3>K-Swiss V8 - Masculino</h3>
-                    <p class="price">
-                        <span class="old-price"><s>$200</s></span>
-                        <span class="new-price">$100</span>
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div class="produtoImage semDesconto">
-                    <img src="/src/assets/image/tenisCard2.png" alt="imagem" class="img"/>
-                </div>
-                <div class="produtoDescricao">
-                    <h4>Tênis</h4>
-                    <h3>K-Swiss V8 - Masculino</h3>
-                    <p class="price">
-                        <span class="old-price"><s>$200</s></span>
-                        <span class="new-price">$100</span>
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div class="produtoImage semDesconto">
-                    <img src="/src/assets/image/tenisCard2.png" alt="imagem" class="img"/>
-                </div>
-                <div class="produtoDescricao">
-                    <h4>Tênis</h4>
-                    <h3>K-Swiss V8 - Masculino</h3>
-                    <p class="price">
-                        <span class="old-price"><s>$200</s></span>
-                        <span class="new-price">$100</span>
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div class="produtoImage semDesconto">
-                    <img src="/src/assets/image/tenisCard2.png" alt="imagem" class="img"/>
-                </div>
-                <div class="produtoDescricao">
-                    <h4>Tênis</h4>
-                    <h3>K-Swiss V8 - Masculino</h3>
-                    <p class="price">
-                        <span class="old-price"><s>$200</s></span>
-                        <span class="new-price">$100</span>
-                    </p>
-                </div>
-            </div>
+            
+            
+             
+            
 
-        </div>
+       </section>
+        
     )
 }
 

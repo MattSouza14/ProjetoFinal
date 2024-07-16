@@ -1,11 +1,14 @@
-import '\src\Components\header.css'
+
+import '../assets/logoHeader.png'
+import '../assets/carrinhoHeader.png'
 export default function Header() {
     return (
+
         <header>
             <div class="row mb-5 mx-5 d-flex align-items-center header1">
 
                 <div class="col-2 mx-5">
-                    <img src="\src\assets\logoHeader.png" alt="Digital College logo" width="253px" height="44px"/>
+                    <img src="src\assets\logoHeader.png" alt="Digital College logo" width="253px" height="44px"/>
                 </div>
             
                 <div class="col-5 mx-2">

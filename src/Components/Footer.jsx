@@ -1,4 +1,7 @@
-
+import '../assets/footerLogo.png'
+import '../assets/footerFacebook.png'
+import '../assets/footerInsta.png'
+import '../assets/footerTwitter.png'
 export default function Footer(){
 
 return(
@@ -6,7 +9,7 @@ return(
         <div class="footer-info">
             <div class="footer-brand">
               <div class="footer-logo">
-                <img src="/src/assets/image/footerLogo.png" alt="Logo Digital Store" class="logo"/>
+                <img src="src\assets\footerLogo.png" alt="Logo Digital Store" class="logo"/>
                 <h1>Digital Store</h1>
               </div>
               <div class="description">
@@ -15,9 +18,9 @@ return(
               </div>
                 <div class="social-links">
                     <ul>
-                        <li><a href="#"><img src="/src/assets/image/footerFacebook.png" alt=""/></a></li>
-                        <li><a href="#"><img src="/src/assets/image/instagramLogo.png" alt=""/></a></li>
-                        <li><a href="#"><img src="/src/assets/image/twitterLogo.png" alt=""/></a></li>
+                        <li><a href="#"><img src="src\assets\footerFacebook.png" alt="Icone Facebook"/></a></li>
+                        <li><a href="#"><img src="src\assets\footerInsta.png" alt="Icone Instagram"/></a></li>
+                        <li><a href="#"><img src="src\assets\footerTwitter.png" alt="Icone Twitter"/></a></li>
                     </ul>
 
                 </div>
