@@ -45,16 +45,24 @@
 header {
     margin-top: 40px;
     margin-bottom: 30px;
-
-    .header1{
-        background-color: var(--white);
+    display: flex;
+    flex-direction: column;
     
+    .header1{
+        display: flex;
+        align-items: center;
+
+        .logo{
+            margin-left: 100px;
+        }
+
         input[type=text] {
             font-weight: 400;
             font-size: 16px;
             width: 559px;
             height: 60px;
             padding: 20px;
+            margin-left: 30px;
             border: none;
             border-radius: 8px;
             background-color: var(--light-gray-3);
@@ -65,6 +73,13 @@ header {
         
         a{
             color: var(--dark-gray);
+            margin-left: 50px;
+        }
+        button {
+            margin-left: 30px;
+        }
+        .carrinho {
+            margin-left: 80px;
         }
     }
     
@@ -77,6 +92,8 @@ header {
 
     nav {
         width: 500px;
+        margin-top: 40px;
+        margin-bottom: 15px;
         display: flex;
         justify-content: space-between;
     }
