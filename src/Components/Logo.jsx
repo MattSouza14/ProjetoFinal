@@ -1,10 +1,11 @@
+import '.src/Components/Logo.css'
 import logo from '/src/assets/logo.png'
 
 
 function Logo() {
     return (
         <div>
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo"  />
         </div>
     )
 }
