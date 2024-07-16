@@ -1,57 +1,52 @@
 import '../assets/tenisCardUm.png'
-function ProductCard(nome, imagem, descricao, precoAntigo, precoNovo, desconto){
+
+
+
+export default function ProductCard({nome, imagem, descricao, precoAntigo, precoNovo, desconto}){
     return(
-      <main>
- <section id="products">    
-         <div class="products-grid">
-            <div class="card-container">
-                <div class="image-container">
-                 
+    <main>
+        <section id="products">    
+         <div className="products-grid">
+            <div className="card-container">
+                <div className="image-container">
+                 <div className="desconto">{desconto}</div>
                   <img
-                    src="src\assets\tenisCardUm.png"
-                    alt="imagem"
+                    src={imagem}
+                    alt={nome}
                     class="img"
                   />
                 </div>
-                <div class="description">
-                  <h4 class="title">Tênis</h4>
-                  <p class="descricao">K-Swiss V8 - Masculino</p>
-                  <p class="price">
-                    <span class="old-price"><s>$200</s></span>
-                    <span class="desconto">$100</span>
+                <div className="description">
+                  <h4 className="title">{nome}</h4>
+                  <p className="descricao">{descricao}</p>
+                  <p className="price">
+                    <span className="old-price"><s>{precoAntigo}</s></span>
+                    <span className="new-price">{precoNovo}</span>
                   </p>
                 </div>
               </div>
             
-              
-              <div class="card-container">
-                <div class="image-container">
+              <div className="card-container">
+                <div className="image-container">
                   <img
-                    src="src\assets\tenisCardUm.png"
-                    alt="imagem"
-                    class="img"
+                    src={imagem}
+                    alt={nome}
+                    className="img"
                   />
                 </div>
-                <div class="description">
-                  <h4 class="title">Tênis</h4>
-                  <p class="descricao">K-Swiss V8 - Masculino</p>
-                  <p class="price">
-                    <span class="old-price"><s>$200</s></span>
-                    <span class="desconto">$100</span>
+                <div className="description">
+                  <h4 className="title">{nome}</h4>
+                  <p className="descricao">{descricao}</p>
+                  <p className="price">
+                    <span className="old-price"><s>{precoAntigo}</s></span>
+                    <span className="desconto">{precoNovo}</span>
                   </p>
                 </div>
               </div>
             </div>
-            
-            
-             
-            
-
        </section>
-        
-      </main>
+    </main>
       
     )
 }
 
-export default ProductCard

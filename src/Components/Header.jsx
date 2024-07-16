@@ -2,6 +2,7 @@
 import '../assets/logoHeader.png'
 import '../assets/carrinhoHeader.png'
 
+
 export default function Header() {
     return (
 
