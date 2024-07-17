@@ -1,9 +1,10 @@
 import ProductCard from "./ProductCard";
+
 import './ProductCard.css'
 
 export default function ListProductCard({produtos}){
-        
-    return(
+
+     return(
             <div className="products-grid">
 
                 {produtos.map((produto) =>(
@@ -11,4 +12,24 @@ export default function ListProductCard({produtos}){
                 ))}
             </div>
         )
-}
+    }   
+    
+    
+    
+
+    //    if(produtos.desconto){ 
+//    } 
+//    else {
+//     return(
+//             <div className="products-grid">
+
+//                 {produto2.map((produto2) =>(
+//                     <ProductCard2 nome={produto2.nome} descricao={produto2.descricao} oldPrice={produto2.oldPrice} newPrice={produto2.newPrice} imagem={produto2.imagem}/>
+//                 ))}
+//             </div>
+
+//     )
+    
+        
+   
+// }
