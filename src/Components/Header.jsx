@@ -78,6 +78,7 @@ const HeaderStyled = styled.div`
 
 `
 
+
 export default function Header() {
 
     return (

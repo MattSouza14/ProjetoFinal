@@ -15,6 +15,11 @@ import Buttons from './Components/Buttons'
 import ListProductCard from './Components/ProductListing'
 import ColecoesDestaque2 from './Components/ColecoesDestaque2'
 
+import BanerPrincipal from './Components/BanerPrincipal.jsx'
+import './Components/BarnerPrincipal.css'
+
+
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -49,6 +54,8 @@ function App() {
 
     <Footer></Footer>
  
+      
+
     </>
   )
 }
