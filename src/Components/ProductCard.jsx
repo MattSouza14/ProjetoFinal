@@ -1,5 +1,6 @@
 import '../assets/tenisCardUm.png'
 export default function ProductCard({desconto, imagem, nome, descricao, oldPrice, newPrice}){
+export default function ProductCard({desconto, imagem, nome, descricao, oldPrice, newPrice}){
     return(
        <section id="products">    
          <div className="products-grid">
@@ -27,6 +28,7 @@ export default function ProductCard({desconto, imagem, nome, descricao, oldPrice
                   <img
                     src={imagem}
                     alt="Tênis"
+                    className="img"
                     className="img"
                   />
                 </div>

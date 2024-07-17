@@ -4,7 +4,7 @@ import Footer from './Components/Footer'
 import './Components/Footer.css'
 
 import Header from './Components/Header'
-import './Components/header.css'
+import './Components/Header.css'
 
 import Logo from './Components/Logo'
 import './Components/Logo.css'
@@ -16,7 +16,7 @@ import ListProductCard from './Components/ProductListing'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   let produtos = [{
     nome: 'Tênis',
@@ -42,6 +42,7 @@ function App() {
   <>
     <Header></Header>
 
+    {/* <Logo></Logo>  */}
     {/* <Logo></Logo>  */}
 
   
