@@ -2,6 +2,7 @@ import '../assets/footerLogo.png'
 import '../assets/footerFacebook.png'
 import '../assets/footerInsta.png'
 import '../assets/footerTwitter.png'
+
 export default function Footer(){
 
 return(
