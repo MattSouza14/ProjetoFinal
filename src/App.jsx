@@ -20,6 +20,16 @@ import './Components/ProductCard.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  let produto = [{
+    nome: 'Tênis',
+    descricao:'K-Swiss V8 - Masculino',
+    oldPrice: '200',
+    newPrice:'100',
+    desconto:'30',
+    imagem: 'src/assets/tenisCardUm.png'
+  }
+  ]
+
   return (
     <>
    <Header></Header>
@@ -27,10 +37,10 @@ function App() {
 
    <Logo></Logo>
 
-   <ProdutosCard></ProdutosCard> 
+   <ProdutosCard ></ProdutosCard> 
   
     <Footer></Footer>
-
+ 
       
 
     </>
