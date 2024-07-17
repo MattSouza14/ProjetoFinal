@@ -1,7 +1,7 @@
 {/* 
-   Como chamar os botôes no App.jsx
+   Como chamar os botôes
    
-<Buttons type={'PrimaryButton'} content={'TesteTeste'}}></Buttons>
+<Buttons type={'PrimaryButton'} content={'TesteTeste'}></Buttons>
 <Buttons type={'SecondaryButton'} content={'Testesss'}></Buttons>
 <Buttons type={'ShopButton'} content={'Testesss'}></Buttons> */}
 
