@@ -1,48 +1,29 @@
 import '../assets/tenisCardUm.png'
-function ProdutosCard(){
+export default function ProductCard(desconto, imagem, nome, descricao, oldPrice, newPrice){
     return(
        <section id="products">    
          <div class="products-grid">
             <div class="card-container">
                 <div class="image-container">
-                 <h3 class="overlay">30% OFF</h3>
+                 <h3 class="overlay">{desconto}</h3>
                   <img
-                    src="src\assets\tenisCardUm.png"
-                    alt="imagem"
+                    src={imagem}
+                    alt="Tênis"
                     class="img"
                   />
                 </div>
                 <div class="description">
-                  <h4 class="title">Tênis</h4>
-                  <p class="descricao">K-Swiss V8 - Masculino</p>
+                  <h4 class="title">{nome}</h4>
+                  <p class="descricao">{descricao}</p>
                   <p class="price">
-                    <span class="old-price"><s>$200</s></span>
-                    <span class="desconto">$100</span>
-                  </p>
-                </div>
-              </div>
-            
-              
-              <div class="card-container">
-                <div class="image-container">
-                  <img
-                    src="src\assets\tenisCardUm.png"
-                    alt="imagem"
-                    class="img"
-                  />
-                </div>
-                <div class="description">
-                  <h4 class="title">Tênis</h4>
-                  <p class="descricao">K-Swiss V8 - Masculino</p>
-                  <p class="price">
-                    <span class="old-price"><s>$200</s></span>
-                    <span class="desconto">$100</span>
+                    <span class="old-price"><s>${oldPrice}</s></span>
+                    <span class="desconto">${newPrice}</span>
                   </p>
                 </div>
               </div>
             </div>
        </section>
-    </main>
+   
       
     )
 }

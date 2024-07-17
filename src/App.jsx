@@ -17,7 +17,7 @@ import './Components/ProductCard.css'
 function App() {
   const [count, setCount] = useState(0)
 
-  let produto = [{
+  let produto = {
     nome: 'Tênis',
     descricao:'K-Swiss V8 - Masculino',
     oldPrice: '200',
@@ -25,7 +25,7 @@ function App() {
     desconto:'30',
     imagem: 'src/assets/tenisCardUm.png'
   }
-  ]
+  
 
   return (
   <>
@@ -33,7 +33,7 @@ function App() {
 
     <Logo></Logo> 
 
-   <ProdutosCard ></ProdutosCard> 
+   <ProductCard nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} imagem={produto.imagem} oldPrice={produto.oldPrice} newPrice={produto.newPrice}></ProductCard>
   
     <Footer></Footer>
  
