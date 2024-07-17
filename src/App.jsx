@@ -1,12 +1,10 @@
 import { useState } from 'react'
+import './index.css'
 
 import Footer from './Components/Footer'
 import './Components/Footer.css'
 
 import Header from './Components/Header'
-
-import Logo from './Components/Logo'
-import './Components/Logo.css'
 
 import ProductCard from './Components/ProductCard'
 import './Components/ProductCard.css'
@@ -15,6 +13,7 @@ import ProductListing from './Components/ProductListing'
 import Buttons from './Components/Buttons'
 
 import ListProductCard from './Components/ProductListing'
+import ColecoesDestaque2 from './Components/ColecoesDestaque2'
 
 
 function App() {
@@ -43,16 +42,13 @@ function App() {
   return (
   <>
     <Header></Header>
+ 
+    <ColecoesDestaque2></ColecoesDestaque2>
 
-    {/* <Logo></Logo>  */}
-    {/* <Logo></Logo>  */}
-
-  
     <ListProductCard produtos={produtos}/>
+
     <Footer></Footer>
  
-      
-
     </>
   )
 }

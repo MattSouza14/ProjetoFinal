@@ -1,5 +1,5 @@
 {/* 
-   Como chamar os botôes no App.jsx
+   ****Como chamar os botôes no App.jsx*****
    
 <Buttons type={'PrimaryButton'} content={'TesteTeste'}}></Buttons>
 <Buttons type={'SecondaryButton'} content={'Testesss'}></Buttons>
@@ -16,7 +16,7 @@ let PrimaryButton = styled.button`
    color: ${Cores.lightGray3};
    line-height: 22px;
    letter-spacing: 0.75px;
-   width: 158px;
+   padding: 0px 55px;
    border: none;
    height: 48px;
    border-radius: 10px;
