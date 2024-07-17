@@ -12,29 +12,40 @@ import './Components/Logo.css'
 import ProductCard from './Components/ProductCard'
 import './Components/ProductCard.css'
 
+import ListProductCard from './Components/ProductListing'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
-  let produto = {
+  let produtos = [{
     nome: 'Tênis',
     descricao:'K-Swiss V8 - Masculino',
-    oldPrice: '200',
-    newPrice:'100',
-    desconto:'30',
+    oldPrice: '$200',
+    newPrice:'$149.9',
+    desconto:'%30 OFF',
+    imagem: 'src/assets/tenisCardUm.png'
+  },
+  {
+    nome: 'Tênis',
+    descricao:'K-Swiss V8 - Masculino',
+    oldPrice: '$200',
+    newPrice:'$149.9',
+    desconto:'%30 OFF',
     imagem: 'src/assets/tenisCardUm.png'
   }
+  
+]
   
 
   return (
   <>
     <Header></Header>
 
-    <Logo></Logo> 
+    {/* <Logo></Logo>  */}
 
-   <ProductCard nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} imagem={produto.imagem} oldPrice={produto.oldPrice} newPrice={produto.newPrice}></ProductCard>
   
+    <ListProductCard produtos={produtos}/>
     <Footer></Footer>
  
       
