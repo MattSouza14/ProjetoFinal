@@ -14,6 +14,11 @@ import './Components/ProductCard.css'
 
 import ListProductCard from './Components/ProductListing'
 
+import BanerPrincipal from './Components/BanerPrincipal.jsx'
+import './Components/BarnerPrincipal.css'
+
+
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -42,13 +47,17 @@ function App() {
   <>
     <Header></Header>
 
+    <BanerPrincipal></BanerPrincipal>
+
+    
+
     {/* <Logo></Logo>  */}
     {/* <Logo></Logo>  */}
 
   
     <ListProductCard produtos={produtos}/>
     <Footer></Footer>
- 
+   <ProductCard/>
       
 
     </>
