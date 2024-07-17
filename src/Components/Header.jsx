@@ -1,12 +1,88 @@
-
 import '../assets/logoHeader.png'
 import '../assets/carrinhoHeader.png'
+import styled from 'styled-components'
+import Buttons from './Buttons'
 
+const HeaderStyled = styled.div`
+    
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    .header1{
+        display: flex;
+        align-items: center;
+
+        .logo{
+            margin-left: 100px;
+        }
+
+        input[type=text] {
+            font-weight: 400;
+            font-size: 16px;
+            width: 559px;
+            height: 60px;
+            padding: 20px;
+            margin-left: 30px;
+            border: none;
+            border-radius: 8px;
+            background-color: var(--light-gray-3);
+        }
+        input[type="text"]:focus {
+                outline: none;
+            }
+        
+        a{
+            color: var(--dark-gray);
+            margin-left: 50px;
+        }
+        button {
+            margin-left: 30px;
+        }
+        .carrinho {
+            margin-left: 80px;
+        }
+    }
+    
+    .cadastre-se {
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--dark-gray-2);
+        text-underline-offset: 5px;
+    }
+
+    nav {
+        width: 500px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .a-focus{
+        color: var(--primary);
+        font-weight: 700;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 95px;
+        text-underline-offset: 7px;
+    }
+    
+    .a1{
+        color: var(--dark-gray-2);
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+
+`
 
 export default function Header() {
-    return (
 
-        <header>
+    return (
+        
+        <HeaderStyled>
             <div class="header1">
 
                 <div class="logo">
@@ -21,7 +97,7 @@ export default function Header() {
                 
                 <div class="">
                     <a href="#" class="cadastre-se">Cadastre-se</a>
-                    <button class="button1">Entrar</button>
+                    <Buttons type={'PrimaryButton'} content={'Entrar'}></Buttons>
                 </div>
         
                 <div class="carrinho">
@@ -35,6 +111,6 @@ export default function Header() {
                 <a href="#" class="a1">Categorias</a>
                 <a href="#" class="a1">Meus Pedidos</a>
             </nav>
-        </header>
+        </HeaderStyled>
     )
 }
