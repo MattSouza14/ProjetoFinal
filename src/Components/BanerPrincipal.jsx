@@ -1,5 +1,6 @@
 import '../assets/Tenispag1.png'
-// import'../assets/Ornament.png'
+import'../assets/Ornament11.png'
+import Buttons from './Buttons'
 
 
 
@@ -29,7 +30,7 @@ export default function BanerPrincipal(){
                         <p className="p2">Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
                     </div>
                     <div>
-                        <button className="button1 px-5 mt-3">Ver Ofertas</button>
+                    <Buttons type={'PrimaryButton'} content={'Ver Ofertas'}></Buttons>
                     </div>
                 </div>
 
@@ -38,7 +39,7 @@ export default function BanerPrincipal(){
                 </div>
 
                 <div>
-                    <img src={"img/Ornament11.png"} alt="Ornament_11" className="Ornament11"/>
+                    <img src="src\assets\Ornament11.png" alt="Ornament_11" className="Ornament11"/>
                 </div>
             </div>                    
         </div>
@@ -55,7 +56,8 @@ export default function BanerPrincipal(){
                         <p className="p2">Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
                     </div>
                     <div>
-                        <button className="button1 px-5 mt-3">Ver Ofertas</button>
+                        {/* <button className="button1 px-5 mt-3">Ver Ofertas</button> */}
+                        <Buttons type={'PrimaryButton'} content={'Ver Ofertas'}></Buttons>
                     </div>
                 </div>
 
@@ -64,7 +66,7 @@ export default function BanerPrincipal(){
                 </div>
 
                 <div>
-                    <img src="img/Ornament11.png" alt="Ornament_11" className="Ornament11"/>
+                    <img src="src\assets\Ornament11.png" alt="Ornament_11" className="Ornament11"/>
                 </div>
             </div>                    
         </div>
@@ -81,7 +83,8 @@ export default function BanerPrincipal(){
                         <p className="p2">Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
                     </div>
                     <div>
-                        <button className="button1 px-5 mt-3">Ver Ofertas</button>
+                        {/* <button className="button1 px-5 mt-3">Ver Ofertas</button> */}
+                        <Buttons type={'PrimaryButton'} content={'Ver Ofertas'}></Buttons>
                     </div>
                 </div>
 
