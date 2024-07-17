@@ -4,7 +4,6 @@ import Footer from './Components/Footer'
 import './Components/Footer.css'
 
 import Header from './Components/Header'
-import './Components/Header.css'
 
 import Logo from './Components/Logo'
 // import './Components/Logo.css'
@@ -12,10 +11,18 @@ import Logo from './Components/Logo'
 import ProductCard from './Components/ProductCard'
 import './Components/ProductCard.css'
 
+import ProductListing from './Components/ProductListing'
+import Buttons from './Components/Buttons'
+
 import ListProductCard from './Components/ProductListing'
 
 import ProductFilter from './Components/ProductFilter'
 import './Components/ProductFilter.css'
+
+import BanerPrincipal from './Components/BanerPrincipal.jsx'
+import './Components/BarnerPrincipal.css'
+
+
 
 
 function App() {
@@ -63,6 +70,10 @@ function App() {
   <>
     <Header></Header>
 
+    <BanerPrincipal></BanerPrincipal>
+
+    
+
     {/* <Logo></Logo>  */}
     {/* <Logo></Logo>  */}
 
@@ -71,7 +82,7 @@ function App() {
     
     
     <Footer></Footer>
- 
+   <ProductCard/>
       
 
     </>
