@@ -4,7 +4,7 @@ import Footer from './Components/Footer'
 import './Components/Footer.css'
 
 import Header from './Components/Header'
-import './Components/header.css'
+import './Components/Header.css'
 
 import Logo from './Components/Logo'
 import './Components/Logo.css'
@@ -12,28 +12,30 @@ import './Components/Logo.css'
 import ProductCard from './Components/ProductCard'
 import './Components/ProductCard.css'
 
+import ProductListing from './Components/ProductListing'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
-  let produto = {
+  let produto = [{
     nome: 'Tênis',
     descricao:'K-Swiss V8 - Masculino',
     oldPrice: '200',
     newPrice:'100',
     desconto:'30',
     imagem: 'src/assets/tenisCardUm.png'
-  }
+  }]
   
 
   return (
   <>
     <Header></Header>
 
-    <Logo></Logo> 
+    {/* <Logo></Logo>  */}
 
-   <ProductCard nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} imagem={produto.imagem} oldPrice={produto.oldPrice} newPrice={produto.newPrice}></ProductCard>
+    <ProductListing array = {produto}/>
   
     <Footer></Footer>
  
