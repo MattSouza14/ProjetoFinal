@@ -126,6 +126,7 @@ export default function Header() {
             >
             Produtos
             </NavLink>
+            
                 {/* <a href="#" className="a1">Produtos</a> */}
                 <a href="#" className="a1">Categorias</a>
                 <a href="#" className="a1">Meus Pedidos</a>
