@@ -22,6 +22,7 @@ import BanerPrincipal from './Components/BanerPrincipal.jsx'
 import './Components/BarnerPrincipal.css'
 import BuyBox from './Components/BuyBox.jsx'
 
+import DestaqueColecaoIcone from './Components/DestaqueColecaoIcones'
 
 
 
@@ -38,7 +39,15 @@ function App() {
   //   description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repudiandae laudantium, accusamus vero esse alias debitis sed autem ad omnis voluptas vitae odit, quasi obcaecati eaque nisi optio illo voluptatem."
   //   ></BuyBox>
 
-  let produtos = [{
+  let listaprodutos = [{
+    nome: 'Tênis',
+    descricao:'K-Swiss V8 - Masculino',
+    oldPrice: '$200',
+    newPrice:'$149.9',
+    desconto:'%30 OFF',
+    imagem: 'src/assets/tenisCardUm.png'
+  },
+  {
     nome: 'Tênis',
     descricao:'K-Swiss V8 - Masculino',
     oldPrice: '$200',
@@ -54,8 +63,8 @@ function App() {
     desconto:'%30 OFF',
     imagem: 'src/assets/tenisCardUm.png'
   }
-  
-  
+
+
 ]
 let produtosNoDiscount = [
   {
@@ -150,11 +159,12 @@ let produtosNoDiscount = [
   imagem: 'src/assets/tenisCardUm.png'
 },
 ]
-  
+
 
   return (
   <>
     <Header></Header>
+<<<<<<< HEAD
     
      <BuyBox
     name={"Tênis Nike Revolution 6 Next Nature Masculino"}
@@ -172,6 +182,13 @@ let produtosNoDiscount = [
     <ProductFilter/>
     <ListProductCard produtos={produtos}/>
     <ListProductCard produtosNoDiscount={produtosNoDiscount}/>
+=======
+    <DestaqueColecaoIcone ListaProdutos={listaprodutos}/>
+    {<ColecoesDestaque2></ColecoesDestaque2>}
+    {<ProductFilter/>}
+    {<ListProductCard produtos={produtos}/>}
+    {<ListProductCard produtosNoDiscount={produtosNoDiscount}/>}
+>>>>>>> b702e040ff7ced679ddc6278fe49e1891ca2f9aa
     
 
     <Footer></Footer>
