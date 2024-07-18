@@ -1,9 +1,5 @@
 {/* 
-<<<<<<< HEAD
-   ****Como chamar os botôes no App.jsx*****
-=======
    Como chamar os botôes
->>>>>>> 80f1737dcb5b331e84651c67ab233e360f33b051
    
 <Buttons type={'PrimaryButton'} content={'TesteTeste'}></Buttons>
 <Buttons type={'SecondaryButton'} content={'Testesss'}></Buttons>

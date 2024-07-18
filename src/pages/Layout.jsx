@@ -9,10 +9,9 @@ export default function Layout(){
     return(
 <>
 <BrowserRouter>
+    
     <Header/>
-
         <Rotas/>
-
     <Footer/>
 </BrowserRouter>
 </>

@@ -2,7 +2,9 @@ import '../assets/logoHeader.png'
 import '../assets/carrinhoHeader.png'
 import styled from 'styled-components'
 import Buttons from './Buttons'
-import{Link} from 'react-router-dom'
+import{NavLink, Link, useLocation} from 'react-router-dom'
+
+export let a = 'a1'
 
 const HeaderStyled = styled.div`
     
@@ -54,6 +56,8 @@ const HeaderStyled = styled.div`
     }
 
     nav {
+        background-color: white;
+        margin-left: 95px;
         width: 500px;
         margin-top: 40px;
         margin-bottom: 15px;
@@ -65,7 +69,7 @@ const HeaderStyled = styled.div`
         font-weight: 700;
         font-size: 16px;
         font-weight: bold;
-        margin-left: 95px;
+        
         text-underline-offset: 7px;
     }
     
@@ -75,8 +79,6 @@ const HeaderStyled = styled.div`
         font-size: 16px;
         text-decoration: none;
     }
-    
-
 `
 
 
@@ -85,35 +87,48 @@ export default function Header() {
     return (
         
         <HeaderStyled>
-            <div class="header1">
+            <div className="header1">
 
-                <div class="logo">
+                <div className="logo">
                     <img src="src\assets\logoHeader.png" alt="Digital College logo" width="253px" height="44px"/>
                 </div>
             
-                <div class="">
+                <div className="">
                     <form action="">
                         <input type="text" name="" id="" placeholder="Pesquisar produto..."/>
                     </form>
                 </div>
                 
-                <div class="">
-                    <a href="#" class="cadastre-se">Cadastre-se</a>
+                <div className="">
+                    <a href="#" className="cadastre-se">Cadastre-se</a>
                     <Buttons type={'PrimaryButton'} content={'Entrar'}></Buttons>
                 </div>
         
-                <div class="carrinho">
+                <div className="carrinho">
                     <img src="src\assets\carrinhoHeader.png" alt="Carrinho" width="33px" height="29px"/>
                 </div>
             </div>
 
             <nav>
-                <Link class="a-focus" to={"/"}>Home</Link>
-                {/* <a href="#" class="a-focus">Home</a> */}
-                <Link class="a1" to={"/ProductListing"}> Produtos</Link>
-                {/* <a href="#" class="a1">Produtos</a> */}
-                <a href="#" class="a1">Categorias</a>
-                <a href="#" class="a1">Meus Pedidos</a>
+            <NavLink
+            to="/"
+            className={({ isActive }) =>
+                isActive ? "a-focus" : "a1"
+            }
+            >
+            Home
+            </NavLink>
+            <NavLink
+            to="/ProductListing"
+            className={({ isActive }) =>
+                isActive ? "a-focus" : "a1"
+            }
+            >
+            Produtos
+            </NavLink>
+                {/* <a href="#" className="a1">Produtos</a> */}
+                <a href="#" className="a1">Categorias</a>
+                <a href="#" className="a1">Meus Pedidos</a>
             </nav>
         </HeaderStyled>
     )
