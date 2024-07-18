@@ -1,13 +1,12 @@
 import '../assets/tenisCardUm.png'
 
-export default function ProductCard({desconto, imagem, nome, descricao, oldPrice, newPrice}){
+export default function ProductCard2({ imagem, nome, descricao, oldPrice, newPrice}){
     return(
      
-          
+        
          <div className="products-grid">
             <div className="card-container">
                 <div className ="image-container">
-                 <h3 className="overlay">{desconto}</h3>
                   <img
                     src={imagem}
                     alt="Tênis"
@@ -31,4 +30,3 @@ export default function ProductCard({desconto, imagem, nome, descricao, oldPrice
    
     )
 }
-

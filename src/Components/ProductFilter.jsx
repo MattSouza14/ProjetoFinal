@@ -1,4 +1,4 @@
-
+import './ProductFilter.css'
 export default function ProductFilter(){
 return(
 <div className="containerFilter">
