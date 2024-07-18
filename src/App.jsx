@@ -20,12 +20,23 @@ import ColecoesDestaque2 from './Components/ColecoesDestaque2'
 
 import BanerPrincipal from './Components/BanerPrincipal.jsx'
 import './Components/BarnerPrincipal.css'
+import BuyBox from './Components/BuyBox.jsx'
 
 
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
+
+  // <BuyBox
+  //   name="Tênis Nike Revolution 6 Next Nature Masculino"
+  //   reference="Casual | Nike | REF:38416711"
+  //   stars={4.7}
+  //   ating={350}
+  //   price={219.00}
+  //   priceDiscount={279.00}
+  //   description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repudiandae laudantium, accusamus vero esse alias debitis sed autem ad omnis voluptas vitae odit, quasi obcaecati eaque nisi optio illo voluptatem."
+  //   ></BuyBox>
 
   let produtos = [{
     nome: 'Tênis',
@@ -144,8 +155,20 @@ let produtosNoDiscount = [
   return (
   <>
     <Header></Header>
+    
+     <BuyBox
+    name={"Tênis Nike Revolution 6 Next Nature Masculino"}
+    reference={"Casual | Nike | REF:38416711"}
+    stars={4.7}
+    ating={350}
+    price={219.00}
+    priceDiscount={279.00}
+    description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repudiandae laudantium, accusamus vero esse alias debitis sed autem ad omnis voluptas vitae odit, quasi obcaecati eaque nisi optio illo voluptatem."}
+    ></BuyBox> 
  
     <ColecoesDestaque2></ColecoesDestaque2>
+
+    <BuyBox></BuyBox>
     <ProductFilter/>
     <ListProductCard produtos={produtos}/>
     <ListProductCard produtosNoDiscount={produtosNoDiscount}/>

@@ -84,33 +84,33 @@ export default function Header() {
     return (
         
         <HeaderStyled>
-            <div class="header1">
+            <div className="header1">
 
-                <div class="logo">
+                <div className="logo">
                     <img src="src\assets\logoHeader.png" alt="Digital College logo" width="253px" height="44px"/>
                 </div>
             
-                <div class="">
+                <div className="">
                     <form action="">
                         <input type="text" name="" id="" placeholder="Pesquisar produto..."/>
                     </form>
                 </div>
                 
-                <div class="">
+                <div className="">
                     <a href="#" class="cadastre-se">Cadastre-se</a>
                     <Buttons type={'PrimaryButton'} content={'Entrar'}></Buttons>
                 </div>
         
-                <div class="carrinho">
+                <div className="carrinho">
                     <img src="src\assets\carrinhoHeader.png" alt="Carrinho" width="33px" height="29px"/>
                 </div>
             </div>
 
             <nav>
-                <a href="#" class="a-focus">Home</a>
-                <a href="#" class="a1">Produtos</a>
-                <a href="#" class="a1">Categorias</a>
-                <a href="#" class="a1">Meus Pedidos</a>
+                <a href="#" className="a-focus">Home</a>
+                <a href="#" className="a1">Produtos</a>
+                <a href="#" className="a1">Categorias</a>
+                <a href="#" className="a1">Meus Pedidos</a>
             </nav>
         </HeaderStyled>
     )
