@@ -1,4 +1,5 @@
 import './ProductFilter.css'
+import '../assets/setaProdutos.png'
 export default function ProductFilter(){
 return(
 <div className="containerFilter">
@@ -6,11 +7,7 @@ return(
         <p><span className="text">Resultados para “Tênis” -</span> 389 produtos</p>
     </div>
     <div className="containerSelect">
-        <form action="">
-        <select name="" id="" className="selectContainer">
-            <option value="" className='optionContainer'>Ordernar por: mais relevantes</option>
-        </select>
-        </form>
+      <p><span className="text">Ordernar por: </span>mais relevantes <span><img src="src\assets\setaProdutos.png" alt=""  className='imgSeta'/></span></p>
     </div>
 </div>
 
