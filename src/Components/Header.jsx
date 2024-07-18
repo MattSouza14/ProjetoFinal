@@ -2,9 +2,6 @@ import '../assets/logoHeader.png'
 import '../assets/carrinhoHeader.png'
 import styled from 'styled-components'
 import Buttons from './Buttons'
-import{NavLink, Link, useLocation} from 'react-router-dom'
-
-export let a = 'a1'
 
 const HeaderStyled = styled.div`
     
@@ -16,7 +13,6 @@ const HeaderStyled = styled.div`
     .header1{
         display: flex;
         align-items: center;
-        
 
         .logo{
             margin-left: 100px;
@@ -57,8 +53,6 @@ const HeaderStyled = styled.div`
     }
 
     nav {
-        background-color: white;
-        margin-left: 95px;
         width: 500px;
         margin-top: 40px;
         margin-bottom: 15px;
@@ -70,7 +64,7 @@ const HeaderStyled = styled.div`
         font-weight: 700;
         font-size: 16px;
         font-weight: bold;
-        
+        margin-left: 95px;
         text-underline-offset: 7px;
     }
     
@@ -80,6 +74,8 @@ const HeaderStyled = styled.div`
         font-size: 16px;
         text-decoration: none;
     }
+    
+
 `
 
 
@@ -111,23 +107,8 @@ export default function Header() {
             </div>
 
             <nav>
-            <NavLink
-            to="/"
-            className={({ isActive }) =>
-                isActive ? "a-focus" : "a1"
-            }
-            >
-            Home
-            </NavLink>
-            <NavLink
-            to="/ProductListing"
-            className={({ isActive }) =>
-                isActive ? "a-focus" : "a1"
-            }
-            >
-            Produtos
-            </NavLink>
-                {/* <a href="#" className="a1">Produtos</a> */}
+                <a href="#" className="a-focus">Home</a>
+                <a href="#" className="a1">Produtos</a>
                 <a href="#" className="a1">Categorias</a>
                 <a href="#" className="a1">Meus Pedidos</a>
             </nav>

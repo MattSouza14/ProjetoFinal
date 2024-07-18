@@ -5,7 +5,6 @@ let StyledDiv = styled.div`
 
    background-color: #F9F8FE;
    display: flex;
-   flex-wrap: wrap;
    flex-direction: column;
    align-items: center;
    .tituloIcones {
