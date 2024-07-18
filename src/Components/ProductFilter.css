@@ -50,10 +50,31 @@
     color: var(--dark-gray-2);
 
 }
-.selectContainer {
+.containerSelect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 332px;
     height: 60px;
-}
-.optionContainer{
+
+    border: 1px solid var(--dark-gray-2);
+    border-radius: 4px;
     font-size: 16px;
+
+    letter-spacing: 0.75px;
+    line-height: 28px;
+
+    margin: auto 100px auto auto;
+
+}
+
+.containerSelect p{
+color: var(--dark-gray-2);
+margin-bottom: 0;
+
+
+}
+.imgSeta{
+    margin-left: 40px;
 }

@@ -21,9 +21,7 @@ import ColecoesDestaque2 from './Components/ColecoesDestaque2'
 import BanerPrincipal from './Components/BanerPrincipal.jsx'
 import './Components/BarnerPrincipal.css'
 
-import Layout from './pages/Layout.jsx'
-import { BrowserRouter } from 'react-router-dom'
-
+import DestaqueColecaoIcone from './Components/DestaqueColecaoIcones'
 
 
 
