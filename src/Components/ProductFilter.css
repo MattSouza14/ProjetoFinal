@@ -32,10 +32,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid;
 
 }
-.results{
-   
+.results {
+ 
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.75px;
@@ -48,4 +49,11 @@
     font-weight: bold;
     color: var(--dark-gray-2);
 
+}
+.selectContainer {
+    width: 332px;
+    height: 60px;
+}
+.optionContainer{
+    font-size: 16px;
 }

@@ -3,34 +3,41 @@ import ProductCard2 from "./ProductCard2";
 
 import './ProductCard.css'
 
-// export default function ListProductCard({produtos}){
 
-//      return(
-//             <div className="products-grid">
 
-//                 {produtos.map((produto) =>(
-//                     <ProductCard nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} oldPrice={produto.oldPrice} newPrice={produto.newPrice} imagem={produto.imagem}/>
-//                 ))}
-//             </div>
-//         )
-//     }   
-    
-    
-export default function ListProductCard({ produtos =[], produtosNoDiscount =[] }) {
+
+export default function ListProductCard({produtos}) {
+  if(produtos.desconto){
     return (
+      <section id="products">
+            <div className="products-grid">
       
-        <section id="products">
-          <div className="products-grid">
+            {produtos.map((produto, index) => (
+              <ProductCard key={index} nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} oldPrice={produto.oldPrice} newPrice={produto.newPrice} imagem={produto.imagem}/>
+            ))}
+            </div>
+          </section>
+       
+      );
     
-          {produtos.map(produto => (
-            <ProductCard nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} oldPrice={produto.oldPrice} newPrice={produto.newPrice} imagem={produto.imagem}/>
-          ))}
-          {produtosNoDiscount.map(produtoSemDesconto => (
-            <ProductCard2 nome={produtoSemDesconto.nome} descricao={produtoSemDesconto.descricao}  oldPrice={produtoSemDesconto.oldPrice} newPrice={produtoSemDesconto.newPrice} imagem={produtoSemDesconto.imagem}/>
-          ))}
-          </div>
-        </section>
-     
-    );
-  }
+  }else{
+    return (
+      <section id="products">
+            <div className="products-grid">
+      
+            {produtos.map((produto, index) => (
+              <ProductCard2 key={index} nome={produto.nome} descricao={produto.descricao} oldPrice={produto.oldPrice} newPrice={produto.newPrice} imagem={produto.imagem}/>
+            ))}
+            </div>
+          </section>
+       
+      );
 
+
+  }
+  }
+  
+  
+  {/* {produtosNoDiscount.map((produtoSemDesconto, index) => (
+    <ProductCard2 key={index} nome={produtoSemDesconto.nome} descricao={produtoSemDesconto.descricao}  oldPrice={produtoSemDesconto.oldPrice} newPrice={produtoSemDesconto.newPrice} imagem={produtoSemDesconto.imagem}/>
+    ))} */}
