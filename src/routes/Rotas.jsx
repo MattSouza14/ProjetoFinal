@@ -12,6 +12,7 @@ export default function Rotas(){
             <Route path="/" element={<HomePage/>} exact/>
             <Route path="/ProductListing" element={<ProductListingPage/>}/>
             <Route path="/ProductView" element={<ProductViewPage/>}/>
+            
 
 
 

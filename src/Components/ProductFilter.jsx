@@ -8,7 +8,7 @@ return(
     <div className="containerSelect">
         <form action="">
         <select name="" id="" className="selectContainer">
-            <option value="" className='optionContainer'><h1>Ordernar por: mais relevantes</h1></option>
+            <option value="" className='optionContainer'>Ordernar por: mais relevantes</option>
         </select>
         </form>
     </div>

@@ -6,7 +6,7 @@ import './ProductCard.css'
 
 
 
-export default function ListProductCard({produtos}) {
+export default function ProductListing({produtos}) {
   if(produtos.desconto){
     return (
       <section id="products">

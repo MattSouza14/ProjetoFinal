@@ -14,6 +14,7 @@ const HeaderStyled = styled.div`
     .header1{
         display: flex;
         align-items: center;
+        
 
         .logo{
             margin-left: 100px;
@@ -109,9 +110,7 @@ export default function Header() {
 
             <nav>
                 <Link class="a-focus" to={"/"}>Home</Link>
-                {/* <a href="#" class="a-focus">Home</a> */}
                 <Link class="a1" to={"/ProductListing"}> Produtos</Link>
-                {/* <a href="#" class="a1">Produtos</a> */}
                 <a href="#" class="a1">Categorias</a>
                 <a href="#" class="a1">Meus Pedidos</a>
             </nav>
