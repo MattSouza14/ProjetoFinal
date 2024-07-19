@@ -1,4 +1,5 @@
 import ProdutosRelacionados from "../Components/ProdutosRelacionados"
+import BuyBox from "../Components/BuyBox"
 
 
 
@@ -39,6 +40,10 @@ export default function ProductViewPage(){
     }]
 
     return(
-       <ProdutosRelacionados produto={produtos}></ProdutosRelacionados>
+        <>
+            <BuyBox></BuyBox>
+            <ProdutosRelacionados produto={produtos}></ProdutosRelacionados>
+        </>
+       
     )
 }

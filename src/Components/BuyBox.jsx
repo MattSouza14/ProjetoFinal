@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
-import '../Components/BuyBox.css';
+import '../Components/BuyBox.css'
+import Buttons from './Buttons'
+
 export default function BuyBox({ name, reference, stars, ating, price , priceDiscount, description }){
    
     return (
@@ -59,7 +61,8 @@ export default function BuyBox({ name, reference, stars, ating, price , priceDis
                         </div>
                     </div>
 
-                    <button class="botao-comprar">COMPRAR</button>
+                    {/* <button class="botao-comprar">COMPRAR</button> */}
+                    <Buttons type={'ShopButton'} content={'COMPRAR'}></Buttons>
                 </div>
             </div>
 
