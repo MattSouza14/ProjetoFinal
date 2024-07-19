@@ -27,24 +27,9 @@
    font-size: 20px;
     
 }
-.pontuacao {
-    position: fixed;
-    width: 63px;
-    height: 23px;
-    padding: 6px 10px;
-    display: flex;
-    align-items: center;
-    margin-left: 135px;
-    gap: 10px;
-    border-radius: 4px;
-    opacity: 1;
-    background-color: var(--warning);
-    color: var(--white);
-    font-size: 14px;
-  }
-
-  .pontuacao .fa-star {
-    color: var(--white);
+  .star{
+    width: 20px;
+    height: 20px;
   }
 
 body {
@@ -53,9 +38,12 @@ body {
     margin: 0;
     padding: 0;
 }
+.pontuacao{
+    margin-right: 10px;
+}
 
 .buybox {
-    width: 700px;
+    width: 650px;
     margin: 50px auto;
     background-color: var(--white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -83,18 +71,36 @@ body {
 .avaliacao-rating {
     font-size: 14px;
     color: var(--light-gray);
-    margin-left: 80px;
-}
+    margin-left: 10px;
 
+}
+/* */
+.pontuacao {
+    font-size: 14px;
+    width: 63px;
+    height: 23px;
+    color: var(--warning);
+    font-style: var(--light-gray-3);
+    margin-left: 15px;
+    
+}
 .price-container {
     font-size: 1.5em;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-.price-cifrao {
+ .price-cifrao {
     color: var(--dark-gray-2);
     font-weight: bold;
+}
+.price-original{
+    font-size: 32px;
+    color: var(--dark-gray-2);
+}
+.price-discount{
+    font-size: 16px;
+    color: var(--light-gray-2);
 }
 
 .produto-container {
@@ -104,7 +110,7 @@ body {
 .descricao-sub {
     font-size: 14px;
     color: var(--dark-gray-2);
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .texto-descricao {
@@ -116,6 +122,9 @@ body {
 .tamanho-opcoes label {
     margin-right: 10px;
 }
+.tamanho{
+    border-radius: 4px;
+}
 
 .cores-opcoes .cor-opcao {
     width: 30px;
@@ -123,11 +132,12 @@ body {
     border-radius: 50%;
     border: none;
     margin-right: 10px;
+    border: 2px solid var(--tertiary) 2px;
 
 }
 
-.cores-opcoes .cor-opcao.active {
-    border: 2px solid var(--tertiary) 2px; /* Cor da borda roxa */
+.cor-opcao:hover {
+    border: solid 3px var(--tertiary);
 }
 
 
@@ -145,13 +155,14 @@ body {
     margin-top: 20px;
 }
 
-.tamanho-container .btn-group-toggle .btn {
+.tamanho-container .btn-group-toggle .btn{
     margin-right: 10px; 
     background-color: var(--white);
     color: var(--dark-gray-2); 
     border: solid var(--dark-gray-2) 1px;
     width: 40px; 
     height: 40px; 
+    border-radius: 4px, 4px, 4px, 4px;
     font-size: 16px; 
     text-align: center; 
     display: flex;
@@ -159,8 +170,31 @@ body {
     justify-content: center;
 }
 
-.tamanho-container .btn-group-toggle .btn.active {
-    background-color: var(--primary); 
+.tamanho-container .btn-group-toggle .btn:hover {
+    background-color: var(--tertiary); 
     color: var(--white); 
-    border: solid var(--primary) 1px;
+    border-radius: 4px, 4px, 4px, 4px;
+    border: solid var(--tertiary) 1px;
+}
+/* .tamanho-container .btn-group-toggle .btn:active{
+    background-color: var(--tertiary); 
+    color: var(--white); 
+    border-radius: 4px, 4px, 4px, 4px;
+    border: solid var(--tertiary) 1px; 
+}*/
+
+.ativo{
+    background-color: var(--primary);
+    margin-right: 10px; 
+
+    color: var(--dark-gray-2); 
+    border: solid var(--dark-gray-2) 1px;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 4px, 4px, 4px, 4px;
+    font-size: 16px; 
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
