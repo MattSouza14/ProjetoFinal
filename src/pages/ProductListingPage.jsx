@@ -1,6 +1,7 @@
 
 import ProductListing from "../Components/ProductListing"
 import ProductFilter from "../Components/ProductFilter"
+import FilterGroup from "../Components/FilterGroup"
 
 export default function ProdructListingPage(){
     const produtos = [{
@@ -10,7 +11,7 @@ export default function ProdructListingPage(){
             newPrice:'$149.9',
             desconto:'%30 OFF',
             imagem: 'src/assets/tenisCardUm.png',
-            hasDiscount: ''
+            
           },
           {
             nome: 'Tênis',
@@ -19,7 +20,7 @@ export default function ProdructListingPage(){
             newPrice:'$149.9',
             desconto:'%30 OFF',
             imagem: 'src/assets/tenisCardUm.png',
-            hasDiscount: ''
+            
         
           },
           {
@@ -118,9 +119,13 @@ export default function ProdructListingPage(){
 
     return(
     <>
-    <ProductFilter/>
-    
-    <ProductListing produtos={produtos}/>
+    <main>
+      <ProductFilter/>
+      <section id="products">
+         <FilterGroup/>
+        <ProductListing produtos={produtos}/>
+      </section>
+    </main>
   
     </>
 )

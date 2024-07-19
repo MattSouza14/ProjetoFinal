@@ -1,9 +1,10 @@
 import '../assets/tenisCardUm.png'
+import './ProductCard.css'
 
 export default function ProductCard({desconto, imagem, nome, descricao, oldPrice, newPrice}){
     return(
      
-          
+          /*Arrumar corretamente a renderização*/ 
          <div className="products-grid">
             <div className="card-container">
                 <div className ="image-container">

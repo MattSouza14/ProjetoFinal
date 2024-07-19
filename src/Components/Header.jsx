@@ -13,6 +13,7 @@ const HeaderStyled = styled.div`
     display: flex;
     flex-direction: column;
     
+    
     .header1{
         display: flex;
         align-items: center;
@@ -57,7 +58,7 @@ const HeaderStyled = styled.div`
     }
 
     nav {
-        background-color: white;
+       
         margin-left: 95px;
         width: 500px;
         margin-top: 40px;
@@ -88,6 +89,9 @@ export default function Header() {
     return (
         
         <HeaderStyled>
+            <header>
+
+            
             <div className="header1">
 
                 <div className="logo">
@@ -131,6 +135,7 @@ export default function Header() {
                 <a href="#" className="a1">Categorias</a>
                 <a href="#" className="a1">Meus Pedidos</a>
             </nav>
+            </header>
         </HeaderStyled>
     )
 }

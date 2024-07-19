@@ -1,17 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+:root {
+    font-size: 62.5%;
+
+    /*Cores*/
+    --dark-gray:#1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --white:  #FFFFFF;
+    --tertiary: #991956;
+    --primary-gradient: linear-gradient(to bottom, #C92071, #EDABCA);
+    --secondary-gradient: linear-gradient(to bottom, #B5B6F2, #EFEFFF);
+    /*Cores*/
+}
+main{
+    background-color:  #E5E5E5;
+}
 #products{
-    
-    padding: 140px 100px 160px 436px;
+    display: flex;
+    padding: 56px auto  140px;
+    gap: 28px;
 }
 .products-grid{
     display: grid;
     grid-template-columns: 292px 292px 292px;
 
     gap: 14px;
+    margin-top: 40px;
 
 }
 .desconto{
@@ -41,9 +70,8 @@
 }
 
 .image-container img {
-    margin: -3px 20px 42px -26px;
-    /* position: relative;
-    z-index: 0; */
+    margin: -40px 20px 42px -26px;
+    /*Arrumar posição da img*/
     
     
 }
