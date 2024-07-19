@@ -1,116 +1,117 @@
 
 import ProductListing from "../Components/ProductListing"
 import ProductFilter from "../Components/ProductFilter"
+import FilterGroup from "../Components/FilterGroup"
+
 
 export default function ProdructListingPage(){
-    const produtos = [{
+   const produtos = [{
             nome: 'Tênis',
             descricao:'K-Swiss V8 - Masculino',
-            oldPrice: '$200',
-            newPrice:'$149.9',
+            price: '$200',
+            priceDiscount:'$149.9',
             desconto:'%30 OFF',
             imagem: 'src/assets/tenisCardUm.png',
-            hasDiscount: ''
+            
           },
           {
             nome: 'Tênis',
             descricao:'K-Swiss V8 - Masculino',
-            oldPrice: '$200',
-            newPrice:'$149.9',
+            price: '$200',
+            priceDiscount:'$149.9',
             desconto:'%30 OFF',
             imagem: 'src/assets/tenisCardUm.png',
-            hasDiscount: ''
+            
         
           },
           {
             nome: 'Tênis',
             descricao:'K-Swiss V8 - Masculino',
-            oldPrice: '$200',
-            newPrice:'$149.9',
+            priceDiscount: '$200',
             imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+    
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          oldPrice: '$200',
-          newPrice:'$149.9',
+          priceDiscount: '$200',
+          
           imagem: 'src/assets/tenisCardUm.png'
         }
           
@@ -118,9 +119,13 @@ export default function ProdructListingPage(){
 
     return(
     <>
-    <ProductFilter/>
-    
-    <ProductListing produtos={produtos}/>
+    <main>
+      <ProductFilter/>
+      <section id="products">
+         <FilterGroup/>
+        <ProductListing produtos={produtos} onclick=""/>
+      </section>
+    </main>
   
     </>
 )

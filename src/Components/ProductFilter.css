@@ -32,7 +32,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
+    padding-top: 40px;
+    /* border: 1px solid; */
 
 }
 .results {
@@ -43,6 +44,8 @@
     color: var(--dark-gray-2);
 
     margin: 56px auto auto 100px;
+    padding: 56px auto  100px;
+
 }
 
 .text{
