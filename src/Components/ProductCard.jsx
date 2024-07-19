@@ -12,7 +12,7 @@ export default function ProductCard({desconto, imagem, nome, descricao, oldPrice
   },
   {
     nome: 'Tênis',
-    descricao:'K-Swiss V8 - Masculino',
+    descricao:'K-Swiss V8 - Masculinoo',
     oldPrice: '$200',
     newPrice:'$149.9',
     desconto:'%30 OFF',

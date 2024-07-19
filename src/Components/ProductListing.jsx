@@ -41,3 +41,4 @@ export default function ProductListing({produtos}) {
   {/* {produtosNoDiscount.map((produtoSemDesconto, index) => (
     <ProductCard2 key={index} nome={produtoSemDesconto.nome} descricao={produtoSemDesconto.descricao}  oldPrice={produtoSemDesconto.oldPrice} newPrice={produtoSemDesconto.newPrice} imagem={produtoSemDesconto.imagem}/>
     ))} */}
+    //  teste

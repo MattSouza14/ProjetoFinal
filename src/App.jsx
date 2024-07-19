@@ -41,6 +41,8 @@ function App() {
     <ColecoesDestaque2></ColecoesDestaque2>
     <ProductFilter/>
     <ListProductCard produtos={produtos}/>
+    <ListProductCard produtos={produtos}/>
+
    
     
 

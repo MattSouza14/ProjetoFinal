@@ -101,7 +101,7 @@ export default function Header() {
                 </div>
                 
                 <div className="">
-                    <a href="#" className="cadastre-se">Cadastre-se</a>
+                    <a href="#" className="cadastre-se">Cadastre-see</a>
                     <Buttons type={'PrimaryButton'} content={'Entrar'}></Buttons>
                 </div>
         

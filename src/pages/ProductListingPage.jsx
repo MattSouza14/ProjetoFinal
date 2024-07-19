@@ -94,7 +94,7 @@ export default function ProdructListingPage(){
         },
         {
           nome: 'Tênis',
-          descricao:'K-Swiss V8 - Masculino',
+          descricao:'K-Swiss V8 - Masculinoo',
           oldPrice: '$200',
           newPrice:'$149.9',
           imagem: 'src/assets/tenisCardUm.png'
