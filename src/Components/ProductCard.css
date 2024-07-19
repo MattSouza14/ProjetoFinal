@@ -32,7 +32,7 @@ main{
 }
 #products{
     display: flex;
-    padding: 56px auto  140px;
+    padding: 56px auto 140px;
     gap: 28px;
 }
 .products-grid{
