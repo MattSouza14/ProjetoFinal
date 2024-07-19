@@ -7,9 +7,10 @@ import{NavLink, Link, useLocation} from 'react-router-dom'
 export let a = 'a1'
 
 const HeaderStyled = styled.div`
-    
-    margin-top: 40px;
-    margin-bottom: 30px;
+
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     
@@ -57,7 +58,7 @@ const HeaderStyled = styled.div`
     }
 
     nav {
-        background-color: white;
+
         margin-left: 95px;
         width: 500px;
         margin-top: 40px;
