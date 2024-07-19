@@ -1,10 +1,7 @@
 import styled from "styled-components"
 
 let StyledProductCard3 = styled.div`
-   
-   
-   
-   
+
    .descontos {
       display: flex;
       width: 100px;
@@ -18,6 +15,8 @@ let StyledProductCard3 = styled.div`
       justify-content: center;
    }
    .produtoImage {
+      
+
       display: flex;
       flex-direction: column;
       width: 290px;
@@ -29,6 +28,7 @@ let StyledProductCard3 = styled.div`
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06); padding: 20px;
 
       img {
+         align-self: center;
          margin: -40px 0px 42px -26px;
          
       }
@@ -73,8 +73,9 @@ return (
    <StyledProductCard3>
 
          <div>
-            <div class="produtoImage">
-               <p class="descontos">{desconto}</p>
+            <div class="produtoImage" >
+               {desconto == undefined ? null : <p class="descontos">{desconto}</p> }  
+               
                <img src={imagem} alt="imagem" class="img"/>
             </div>
             <div class="produtoDescricao">

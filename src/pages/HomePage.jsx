@@ -13,7 +13,6 @@ export default function HomePage(){
         newPrice:'$149.9',
         desconto:'%30 OFF',
         imagem: 'src/assets/tenisCardUm.png',
-        hasDiscount: ''
       },
       {
         nome: 'Tênis',
@@ -22,7 +21,6 @@ export default function HomePage(){
         newPrice:'$149.9',
         desconto:'%30 OFF',
         imagem: 'src/assets/tenisCardUm.png',
-        hasDiscount: ''
     
       },
       {

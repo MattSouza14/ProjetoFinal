@@ -41,7 +41,7 @@ export default function ProdutosEmAlta({produto=[]}) {
    return (
       <>
       <StyledTitle>
-         <h1>Produtos em alta</h1>
+         <h1>Produtos Relacionados</h1>
          <a href="#">Ver todos <img src="\src\assets\Right24px.png" alt=""/></a>
       </StyledTitle>
 
@@ -52,7 +52,5 @@ export default function ProdutosEmAlta({produto=[]}) {
          ))}
       </StyledProdutosEmAlta>
       </>
-      
-      
    )
 }
