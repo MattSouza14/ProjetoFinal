@@ -1,4 +1,5 @@
-import Header from "../Components/Header"
+import BanerPrincipal from "../Components/BanerPrincipal";
+
 export default function HomePage(){
 
     return(

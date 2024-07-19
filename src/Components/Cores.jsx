@@ -1,4 +1,4 @@
-export let Cores = {
+export const Cores = {
    darkGray: "#1F1F1F",
    darkGray2: "#474747",
    darkGray3: "#666666",

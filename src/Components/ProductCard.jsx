@@ -120,8 +120,7 @@ export default function ProductCard({desconto, imagem, nome, descricao, oldPrice
          <div className="products-grid">
             <div className="card-container">
                 <div className ="image-container">
-               {produtos.desconto !== undefined? <h3 className="overlay">{desconto}</h3>: overlay.style.display = none }
-                 
+                 <h3 className="overlay">{desconto}</h3>
                   <img
                     src={imagem}
                     alt="Tênis"
