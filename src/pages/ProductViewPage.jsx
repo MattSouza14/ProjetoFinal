@@ -41,7 +41,15 @@ export default function ProductViewPage(){
 
     return(
         <>
-            <BuyBox></BuyBox>
+            <BuyBox
+              name={"Tênis Nike Revolution 6 Next Nature Masculino"}
+              reference={"Casual | Nike | REF:38416711"}
+              pontuacao={4.7}
+              rating={45}
+              price={279.00}
+              priceDiscount={219.00}
+              description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repudiandae laudantium, accusamus vero esse alias debitis sed autem ad omnis voluptas vitae odit, quasi obcaecati eaque nisi optio illo voluptatem."}
+              ></BuyBox> 
             <ProdutosRelacionados produto={produtos}></ProdutosRelacionados>
         </>
        

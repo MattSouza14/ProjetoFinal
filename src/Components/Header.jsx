@@ -91,8 +91,7 @@ export default function Header() {
         
         <HeaderStyled>
             <header>
-
-            
+                
             <div className="header1">
 
                 <div className="logo">
