@@ -12,7 +12,7 @@ return(
         <div className="footer-info">
             <div className="footer-brand">
               <div className="footer-logo">
-                <img src="src\assets\footerLogo.png" alt="Logo Digital Store" class="logo"/>
+                <img src="src\assets\footerLogo.png" alt="Logo Digital Store" className="logo"/>
                 <h1>Digital Store</h1>
               </div>
               <div className="description">
@@ -48,7 +48,7 @@ return(
             </ul> 
             <ul className="list-group-contact">
               <h2>Contato</h2>
-              <li class="adress">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</li>
+              <li className="adress">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</li>
               <li>(85) 3051-3411</li>
             </ul>
 

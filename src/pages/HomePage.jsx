@@ -1,9 +1,13 @@
+import styled from "styled-components"
 import BanerPrincipal from "../Components/BanerPrincipal"
 import CardDestaque from "../Components/CardDestaque"
 import ColecoesDestaque2 from "../Components/ColecoesDestaque2"
 import ProdutosEmAlta from "../Components/ProdutosEmAlta"
 
+let StyledHomePage = styled.div`
 
+  background-color: #F9F8FE;
+`
 export default function HomePage(){
 
     const produtos = [{
@@ -68,10 +72,13 @@ export default function HomePage(){
 
     return(
         <>
+          <StyledHomePage>
             <BanerPrincipal></BanerPrincipal>
             <CardDestaque></CardDestaque>
             <ColecoesDestaque2></ColecoesDestaque2>
             <ProdutosEmAlta produto={produtos}></ProdutosEmAlta>
+          </StyledHomePage>
+          
         </>
     
 

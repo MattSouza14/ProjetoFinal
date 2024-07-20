@@ -1,11 +1,8 @@
-{/* 
-   Como chamar os botôes
+{/* Como chamar os botôes
    
 <Buttons type={'PrimaryButton'} content={'TesteTeste'}></Buttons>
 <Buttons type={'SecondaryButton'} content={'Testesss'}></Buttons>
 <Buttons type={'ShopButton'} content={'Testesss'}></Buttons> */}
-
-
 
 import styled from "styled-components";
 import { Cores } from "./Cores";
@@ -71,19 +68,18 @@ let ShopButton = styled.button`
 `
 
 export default function Buttons ({type, content}) {
+
    if (type == 'PrimaryButton') {
       return (
          <PrimaryButton>{content}</PrimaryButton>
-   )
-}
-else if (type == 'SecondaryButton') {
+   )}
+   else if (type == 'SecondaryButton') {
+         return (
+         <SecondaryButton>{content}</SecondaryButton>
+      )}
+   else if (type == 'ShopButton') {
       return (
-      <SecondaryButton>{content}</SecondaryButton>
-   )
-}
-else if (type == 'ShopButton') {
-   return (
-      <ShopButton>{content}</ShopButton>
-   )
-}
+         <ShopButton>{content}</ShopButton>
+      )
+   }
 }

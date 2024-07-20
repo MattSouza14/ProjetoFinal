@@ -92,18 +92,18 @@ export default function CardDestaque(){
                         <Buttons type={'SecondaryButton'} content={'Comprar'}></Buttons>
                     </div>
                 </div>
-                <div class="myCard card2">
+                <div className="myCard card2">
                     <div>
-                        <p class="descontos">30% OFF</p>
+                        <p className="descontos">30% OFF</p>
 
                         <h3>Coleção Adidas</h3>
 
                         <Buttons type={'SecondaryButton'} content={'Comprar'}></Buttons>
                     </div>
                 </div>
-                <div  class="myCard card3">
+                <div  className="myCard card3">
                     <div>
-                        <p class="descontos">30% OFF</p>
+                        <p className="descontos">30% OFF</p>
 
                         <h3>Novo Beats Bass</h3>
 

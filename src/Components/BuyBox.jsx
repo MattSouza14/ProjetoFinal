@@ -44,15 +44,15 @@ export default function BuyBox({ name, reference, pontuacao, rating, price , pri
                     <div className="tamanho-container">
                 <p className="descricao-sub">Tamanho</p>
                 <div className="btn-group btn-group-toggle" data-toggle="buttons">
-                        <button className="btn btn-secondary  tamanho" name="options" id="option1" autocomplete="off"> 39 </button>
+                        <button className="btn btn-secondary  tamanho" name="options" id="option1" autoComplete="off"> 39 </button>
                    
-                        <button className="btn btn-secondary  tamanho" name="options" id="option2" autocomplete="off"> 40 </button>
+                        <button className="btn btn-secondary  tamanho" name="options" id="option2" autoComplete="off"> 40 </button>
                     
-                        <button className="btn btn-secondary  tamanho" name="options" id="option3" autocomplete="off" checked> 41 </button>
+                        <button className="btn btn-secondary  tamanho" name="options" id="option3" autoComplete="off" checked> 41 </button>
                   
-                        <button className="ativo" name="options" id="option4" autocomplete="off"> 42 </button>
+                        <button className="ativo" name="options" id="option4" autoComplete="off"> 42 </button>
                 
-                        <button className="btn btn-secondary tamanho" name="options" id="option5" autocomplete="off"> 43 </button>
+                        <button className="btn btn-secondary tamanho" name="options" id="option5" autoComplete="off"> 43 </button>
                     
                 </div>
             </div>

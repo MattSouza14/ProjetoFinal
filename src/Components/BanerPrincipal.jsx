@@ -1,14 +1,53 @@
 import '../assets/Tenispag1.png'
 import'../assets/Ornament11.png'
 import Buttons from './Buttons'
+import styled from 'styled-components'
 
 
+let StyledBanerPrincipal = styled.div`
+    .carrosel1 {
+    background-color: var(--light-gray-3);
+    padding-bottom: 140px;
 
+    .carroselTexto{
+        width: 480px;
+        margin-top: 120px;
+        margin-left: 80px;
+
+        .p1{
+            font-weight: bold;
+            color: var(--warning);
+            font-size: 20px;
+        }
+
+        h1{
+            font-weight: bold;
+            font-size: 65px;
+        } 
+        
+        .p2{
+            margin-top: 20px;
+            color: var(--dark-gray-2);
+            font-size:20px;
+        }
+    }
+
+    .White-Sneakers1 {
+        margin-top: 120px;
+        margin-left: 100px;
+    }
+
+    .Ornament11 {
+        margin-top: 70px;
+        padding-left: 40px;
+    }
+}
+`
 
 export default function BanerPrincipal(){
 
     return(
-    <>
+    <StyledBanerPrincipal>
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -99,7 +138,7 @@ export default function BanerPrincipal(){
 
 
         </div>
-    </>
+    </StyledBanerPrincipal>
     
 
     )

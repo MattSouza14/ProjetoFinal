@@ -47,8 +47,8 @@ export default function ProdutosEmAlta({produto=[]}) {
 
       <StyledProdutosEmAlta>
    
-         {produto.map(produto => (
-            <ProductCard3 nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} oldPrice={produto.oldPrice} newPrice={produto.newPrice} imagem={produto.imagem}/>
+         {produto.map((produto, index) => (
+            <ProductCard3 key={index} nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} oldPrice={produto.oldPrice} newPrice={produto.newPrice} imagem={produto.imagem}/>
          ))}
       </StyledProdutosEmAlta>
       </>
