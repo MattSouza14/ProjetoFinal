@@ -27,90 +27,90 @@ export default function ProdructListingPage(){
           {
             nome: 'Tênis',
             descricao:'K-Swiss V8 - Masculino',
-            priceDiscount: '$200',
+            price: '$200',
             imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
     
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         },
         {
           nome: 'Tênis',
           descricao:'K-Swiss V8 - Masculino',
-          priceDiscount: '$200',
+          price: '$200',
           
           imagem: 'src/assets/tenisCardUm.png'
         }

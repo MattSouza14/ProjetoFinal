@@ -8,7 +8,7 @@ export default function ProductCard({desconto, imagem, nome, descricao, price, p
          <div className="products-grid">
             <div className="card-container">
                 <div className ="image-container">
-                 {desconto == undefined? null:<h3 className="overlay">{desconto}</h3>}
+                 {desconto == undefined? <h3 className="overlay empty">{desconto}</h3>:<h3 className="overlay">{desconto}</h3>}
                   <img
                     src={imagem}
                     alt="Tênis"
@@ -19,7 +19,7 @@ export default function ProductCard({desconto, imagem, nome, descricao, price, p
                   <h4 className="title">{nome}</h4>
                   <p className="descricao">{descricao}</p>
                   <p className="price">
-                    <span className="price"><s>{price}</s></span>
+                    {desconto == undefined? <span className="price normal">{price}</span>:<span className="price"><s>{price}</s></span>}
                     <span className="priceDiscount">{priceDiscount}</span>
                   </p>
                 </div>

@@ -32,7 +32,7 @@ main{
 }
 #products{
     display: flex;
-    padding: 56px auto 140px;
+    padding: 0 100px 140px 100px;
     gap: 28px;
 }
 .products-grid{
@@ -94,6 +94,9 @@ main{
     line-height: 22px;
     font-weight: bold;
 }
+.overlay.empty {
+    visibility: hidden; 
+}
 .title{
     font-size: 12px;
     font-weight: bold;
@@ -127,4 +130,9 @@ main{
     letter-spacing: 0.75px;
     margin-right: 8px;
 
+}
+
+.price.normal{
+    color: var(--dark-gray);
+    font-weight: bold;
 }

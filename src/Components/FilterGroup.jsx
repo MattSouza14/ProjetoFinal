@@ -23,6 +23,7 @@ return(
                          <input className="form-check-input" type="checkbox" value="" id="Puma"/>
                          <label className="form-check-label" for="Puma">Puma </label>
                     </form>
+
                     <form action="">
                     <h3>Categoria</h3> 
                          <input className="form-check-input" type="checkbox" value="" id="Esporte e lazer"/>
@@ -52,13 +53,13 @@ return(
                        
                         <form action="">
                         <h3> Estado</h3>
-                         <input className="form-check-input" type="radio" value="novos" id="novos"/>
-                         <label className="form-check-label" for="novos"> Novos</label>
+                         <input className="form-check-input" type="radio" value="novos" id="novos" name="estado"/>
+                         <label className="form-radio-label" for="novos"> Novos</label>
                          <br/>
-                         <input className="form-check-input" type="radio" value="usados" id="usados"/>
-                         <label className="form-check-label" for="usados">Usados</label>
+                         <input className="form-check-input" type="radio" value="usados" id="usados" name="estado"/>
+                         <label className="form-radio-label" for="usados">Usados</label>
                     
-                        </form>       
+                    </form>       
             </div>
         </div>
     

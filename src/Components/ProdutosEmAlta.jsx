@@ -29,7 +29,7 @@ margin-right: 190px;
 let StyledProdutosEmAlta = styled.div`
 
    margin-left: 90px;
-   margin-bottom: 130px;
+   padding-bottom: 130px;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
