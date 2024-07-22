@@ -16,7 +16,7 @@
 
 
 <!-- AQUI FICA UMA IMAGEM DA PAGINA HOME -->
-![Imagem HomePage.](/assets/ReadmeIMG)
+![Imagem HomePage.](/assets/ReadmeIMG.png)
 
 ### Tecnologias Usadas:
 - Ao fazer o clone do projeto, execute o comando `npm install` no terminal para instalar o node_modules
