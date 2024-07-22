@@ -43,11 +43,9 @@ const HeaderStyled = styled.div`
             color: var(--dark-gray);
             margin-left: 50px;
         }
-        button {
-            margin-left: 30px;
-        }
+
         .carrinho {
-            margin-left: 80px;
+            margin-left: 30px;
         }
     }
     

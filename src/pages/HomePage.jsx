@@ -5,6 +5,7 @@ import ColecoesDestaque2 from "../Components/ColecoesDestaque2"
 import ProdutosEmAlta from "../Components/ProdutosEmAlta"
 import Section from "../Components/Section"
 
+
 let StyledHomePage = styled.div`
 
   background-color: #F9F8FE;
