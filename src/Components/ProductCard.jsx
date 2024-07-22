@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default function ProductCard({desconto, imagem, nome, descricao, price, priceDiscount}){
     return(
      
-          /*Arrumar corretamente a renderização*/ 
+         
          <div className="products-grid">
             <div className="card-container">
                 <div className ="image-container">

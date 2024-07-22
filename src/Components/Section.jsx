@@ -6,8 +6,71 @@ import tenis from '../assets/tenis.png'
 import  Ellipse11  from '../assets/Ellipse11.png';
 import Buttons from './Buttons'
 import { Cores } from './Cores';
+import Buttons from './Buttons'
+import '/src/assets/Ellipse11.png'
 
 import React from 'react';
+import styled from 'styled-components';
+
+let StyledJordan = styled.div`
+  .container {
+  width: 1340px; 
+  background: var(--white);
+  display: flex; 
+  align-items: center;
+  padding: 20px; 
+}
+
+.jordan {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.text-container {
+  flex: 1;
+  display: flex; 
+  flex-direction: column; 
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.section-title {
+  font-size: 18px; /* Tamanho da fonte do título */
+  color: var(--primary); /* Cor do texto */
+  margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.titleAirJordan {
+  font-size: 32px; 
+  color: var(--darkgray2);
+  margin-top: 0; 
+  margin-bottom: 10px; 
+}
+
+.sectionDescrption {
+  font-size: 16px; 
+  line-height: 1.5; 
+  color: var(--darkgray2);
+  margin-top: 5px; 
+}
+
+.imagem {
+
+  margin-top: 100px;
+  
+  background-image: url('/src/assets/Ellipse11.png');
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 470px;
+  height: 400px;
+}
+
+
+
+
+`
 
 export default function Section() {
   return (

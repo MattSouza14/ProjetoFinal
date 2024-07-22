@@ -1,0 +1,28 @@
+:root{
+    --dark-gray-2: #474747;
+    }
+    .Galeria{
+    width: 700px;
+    height: 570px;
+    border-radius: 4px;
+    background-color: rgba(226, 227, 255, 1);
+    border: 2px;
+    border-color: var(--dark-gray-2);
+    margin-left: 100px;
+
+
+    }
+    
+    .imagem{
+    width: 83.8px;
+    height: 41.7px;
+    border-radius: 4px;
+    }
+   
+
+    .div2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 100px;
+    }

@@ -13,5 +13,11 @@ export const Cores = {
    white: "#FFFFFF",
    tertiary: "#991956",
    primaryGradient: "linear-gradient(to bottom, #C92071, #EDABCA)",
-   secondaryGradient: "linear-gradient(to bottom, #B5B6F2, #EFEFFF)"
+   secondaryGradient: "linear-gradient(to bottom, #B5B6F2, #EFEFFF)",
+
+   bannerButton1:"#E2E3FF",
+   bannerButton2:"#FFE8BC",
+   bannerButton3:"#FFC0BC",
+   bannerButton4:"#DEC699",
+   bannerButton5:"#E8DFCF",
 };
