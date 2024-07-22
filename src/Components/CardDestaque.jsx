@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Buttons from "./Buttons"
 import { styled } from "styled-components"
 
@@ -88,8 +89,9 @@ export default function CardDestaque(){
                         <p className="descontos">30% OFF</p>
 
                         <h3>Novo drop Supreme</h3>
-
+                        <Link to="src\pages\PaginaNaoEncontrada.jsx">
                         <Buttons type={'SecondaryButton'} content={'Comprar'}></Buttons>
+                        </Link>
                     </div>
                 </div>
                 <div className="myCard card2">

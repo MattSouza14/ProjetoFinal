@@ -86,7 +86,7 @@ export default function HomePage(){
         link={{
           text: "Veja mais",
           href: "https://exemplo.com"
-        }}> bla</Section>
+        }}></Section>
           
         </>
     
