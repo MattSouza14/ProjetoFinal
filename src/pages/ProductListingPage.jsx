@@ -123,7 +123,7 @@ export default function ProdructListingPage(){
       <ProductFilter/>
       <section id="products">
          <FilterGroup/>
-        <ProductListing produtos={produtos} onclick=""/>
+        <ProductListing produtos={produtos} onclick="src\pages\ProductViewPage.jsx"/>
       </section>
     </main>
   

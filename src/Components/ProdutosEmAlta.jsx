@@ -2,6 +2,7 @@ import ProductCard3 from "./ProductCard3"
 import styled from "styled-components"
 import { Cores } from "./Cores"
 import "/src/assets/right24px.png"
+import { Link } from "react-router-dom"
 
 let StyledTitle = styled.div`
 
@@ -48,7 +49,7 @@ export default function ProdutosEmAlta({produto=[]}) {
       <StyledProdutosEmAlta>
    
          {produto.map((produto, index) => (
-            <ProductCard3 key={index} nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} oldPrice={produto.oldPrice} newPrice={produto.newPrice} imagem={produto.imagem}/>)
+            <ProductCard3 key={index} nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} oldPrice={produto.oldPrice} newPrice={produto.newPrice} imagem={produto.imagem} />)
          )}
       </StyledProdutosEmAlta>
       </>

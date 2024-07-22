@@ -14,6 +14,7 @@ export default function ProductCard({desconto, imagem, nome, descricao, price, p
                     src={imagem}
                     alt="Tênis"
                     className="img"
+                    onClick="src\pages\ProductViewPage.jsx"
                   />
                 </div>
                 </NavLink>

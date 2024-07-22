@@ -12,6 +12,7 @@ export default function ProductListing({produtos}) {
             {produtos.map((produto, index) => (
               <ProductCard key={index} nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} price={produto.price} priceDiscount={produto.priceDiscount} imagem={produto.imagem}/>
             ))}
+            
             </div>
       );
     

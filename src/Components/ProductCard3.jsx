@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
 
 
@@ -74,14 +75,14 @@ export default function ProductCard3({desconto, imagem, nome, descricao, oldPric
 return (
 
    <StyledProductCard3>
-
+      
          <div>
             <div className="produtoImage">
                {desconto == undefined ? null : <p className="descontos">{desconto}</p> }  
                
                <img src={imagem} alt="imagem" className="img"/>
             </div>
-            <div className="produtoDescricao">
+            <div className="produtoDescricao" onClick="src\pages\ProductViewPage.jsx">
                <h4>{nome}</h4>
                <h3>{descricao}</h3>
                <p className="price">
@@ -90,6 +91,7 @@ return (
                </p>
             </div>
          </div>
+         
    </StyledProductCard3>
 )
 }

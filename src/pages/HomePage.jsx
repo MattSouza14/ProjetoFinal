@@ -74,9 +74,9 @@ export default function HomePage(){
         <>
           <StyledHomePage>
             <BanerPrincipal></BanerPrincipal>
-            <CardDestaque></CardDestaque>
+            <CardDestaque onclick="src\pages\ProductViewPage.jsx"></CardDestaque>
             <ColecoesDestaque2></ColecoesDestaque2>
-            <ProdutosEmAlta produto={produtos}></ProdutosEmAlta>
+            <ProdutosEmAlta produto={produtos} onclick="src\pages\ProductViewPage.jsx"></ProdutosEmAlta>
           </StyledHomePage>
           
         </>

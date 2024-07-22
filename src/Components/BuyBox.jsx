@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Cores } from './Cores';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Buttons from './Buttons';
+import { Link } from 'react-router-dom';
 
 const StyledBuyBox = styled.div`
   .tamanho-opcoes label {
@@ -297,8 +298,9 @@ export default function BuyBox({ name, reference, pontuacao, rating, price, pric
               ))}
             </div>
           </div>
-
-          <Buttons type={'ShopButton'} content={'COMPRAR'} />
+            <Link to="src\pages\PaginaNaoEncontrada.jsx">
+              <Buttons type={'ShopButton'} content={'COMPRAR'} />
+            </Link>
         </div>
       </div>
     </StyledBuyBox>
