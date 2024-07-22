@@ -2,6 +2,7 @@ import BanerPrincipal from "../Components/BanerPrincipal"
 import CardDestaque from "../Components/CardDestaque"
 import ColecoesDestaque2 from "../Components/ColecoesDestaque2"
 import ProdutosEmAlta from "../Components/ProdutosEmAlta"
+import TenisJordan from "../Components/TenisJordan"
 
 
 export default function HomePage(){
@@ -72,6 +73,7 @@ export default function HomePage(){
             <CardDestaque></CardDestaque>
             <ColecoesDestaque2></ColecoesDestaque2>
             <ProdutosEmAlta produto={produtos}></ProdutosEmAlta>
+            <TenisJordan></TenisJordan>
         </>
     
 
