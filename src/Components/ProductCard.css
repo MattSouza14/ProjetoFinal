@@ -60,7 +60,6 @@ main{
     width: 292px;
     height: 439px;
     
-    /* border: 1px solid black; */
 }
 
 .image-container{
@@ -71,7 +70,7 @@ main{
 
 .image-container img {
     margin: -40px 20px 42px -26px;
-    /*Arrumar posição da img*/
+    
     
     
 }

@@ -2,6 +2,8 @@ import '../assets/footerLogo.png'
 import '../assets/footerFacebook.png'
 import '../assets/footerInsta.png'
 import '../assets/footerTwitter.png'
+import { NavLink } from 'react-router-dom'
+
 
 
 
@@ -44,7 +46,7 @@ return(
               <li><a href="#">Calças</a></li>
               <li><a href="#">Bonés</a></li>
               <li><a href="#">Headphones</a></li>
-              <li><a href="#">Tênis</a></li>
+              <li><NavLink to={"/ProductListing"}>Tênis</NavLink></li>
             </ul> 
             <ul className="list-group-contact">
               <h2>Contato</h2>
