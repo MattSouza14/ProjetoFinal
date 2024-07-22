@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
+
 
 let StyledProductCard3 = styled.div`
 
@@ -16,7 +18,7 @@ let StyledProductCard3 = styled.div`
    }
    .produtoImage {
       
-
+      background-color: white;   
       display: flex;
       flex-direction: column;
       width: 290px;
@@ -24,7 +26,6 @@ let StyledProductCard3 = styled.div`
       margin-top: 30px;
       border-radius: 4px;
       padding: 20px;
-      background-color: white;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06); padding: 20px;
 
       img {
@@ -69,24 +70,28 @@ let StyledProductCard3 = styled.div`
 
 `
 export default function ProductCard3({desconto, imagem, nome, descricao, oldPrice, newPrice}) {
-return (
-   <StyledProductCard3>
 
+
+return (
+
+   <StyledProductCard3>
+      
          <div>
-            <div class="produtoImage" >
-               {desconto == undefined ? null : <p class="descontos">{desconto}</p> }  
+            <div className="produtoImage">
+               {desconto == undefined ? null : <p className="descontos">{desconto}</p> }  
                
-               <img src={imagem} alt="imagem" class="img"/>
+               <img src={imagem} alt="imagem" className="img"/>
             </div>
-            <div class="produtoDescricao">
+            <div className="produtoDescricao" onClick="src\pages\ProductViewPage.jsx">
                <h4>{nome}</h4>
                <h3>{descricao}</h3>
-               <p class="price">
-                  <span class="old-price"><s>{oldPrice}</s></span>
-                  <span class="new-price">{newPrice}</span>
+               <p className="price">
+                  <span className="old-price"><s>{oldPrice}</s></span>
+                  <span className="new-price">{newPrice}</span>
                </p>
             </div>
          </div>
+         
    </StyledProductCard3>
 )
 }

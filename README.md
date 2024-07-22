@@ -4,4 +4,7 @@
 - React
 - Javascript
 - StyledComponents ()
+- BootStrap
+- CSS
+- React Routes
 - 

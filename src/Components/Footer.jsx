@@ -2,6 +2,8 @@ import '../assets/footerLogo.png'
 import '../assets/footerFacebook.png'
 import '../assets/footerInsta.png'
 import '../assets/footerTwitter.png'
+import { NavLink } from 'react-router-dom'
+
 
 
 
@@ -12,7 +14,7 @@ return(
         <div className="footer-info">
             <div className="footer-brand">
               <div className="footer-logo">
-                <img src="src\assets\footerLogo.png" alt="Logo Digital Store" class="logo"/>
+                <img src="src\assets\footerLogo.png" alt="Logo Digital Store" className="logo"/>
                 <h1>Digital Store</h1>
               </div>
               <div className="description">
@@ -44,11 +46,11 @@ return(
               <li><a href="#">Calças</a></li>
               <li><a href="#">Bonés</a></li>
               <li><a href="#">Headphones</a></li>
-              <li><a href="#">Tênis</a></li>
+              <li><NavLink to={"/ProductListing"}>Tênis</NavLink></li>
             </ul> 
             <ul className="list-group-contact">
               <h2>Contato</h2>
-              <li class="adress">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</li>
+              <li className="adress">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</li>
               <li>(85) 3051-3411</li>
             </ul>
 
