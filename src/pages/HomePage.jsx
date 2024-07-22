@@ -3,6 +3,7 @@ import BanerPrincipal from "../Components/BanerPrincipal"
 import CardDestaque from "../Components/CardDestaque"
 import ColecoesDestaque2 from "../Components/ColecoesDestaque2"
 import ProdutosEmAlta from "../Components/ProdutosEmAlta"
+import Section from "../Components/Section"
 
 let StyledHomePage = styled.div`
 
@@ -77,7 +78,14 @@ export default function HomePage(){
             <CardDestaque onclick="src\pages\ProductViewPage.jsx"></CardDestaque>
             <ColecoesDestaque2></ColecoesDestaque2>
             <ProdutosEmAlta produto={produtos} onclick="src\pages\ProductViewPage.jsx"></ProdutosEmAlta>
+            
           </StyledHomePage>
+          <Section  title="Exemplo de Seção"
+        titleAlign="center"
+        link={{
+          text: "Veja mais",
+          href: "https://exemplo.com"
+        }}> bla</Section>
           
         </>
     

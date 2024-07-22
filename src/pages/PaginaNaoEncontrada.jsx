@@ -1,13 +1,18 @@
-import Header from "../Components/Header"
-import styled from 'styled-components'
-import "/src/pages/PaginaNaoEncontrada.css"
+import React from 'react';
+import Header from '../Components/Header'; // Importe correto do Header
+import styled from 'styled-components'; // Importe correto do styled-components
+import './PaginaNaoEncontrada.css'; // Importe correto do arquivo CSS local
 
-export default function PaginaNaoEncotrada(){
-    return(
-        <div className="titulo">
+// Estilização usando styled-components (opcional)
 
-            <h1>Pagina não encontrada</h1>
-        </div>
-     
-    )
+export default function PaginaNaoEncontrada() {
+  return (
+    <div className="titulo">
+      
+      <h1> Página não encontrada</h1>
+
+    </div>
+  )
 }
+
+
