@@ -65,7 +65,7 @@ let  StyledCardDestaque = styled.div`
     .card2 {
         background-position: 162px -1px;
         background-repeat: no-repeat;
-        background-image: url(src/assets/sapatodest.png);
+        background-image: url(src/assets/tenispreto.png);
     }
     .card3{
         background-position: 178px -1px;

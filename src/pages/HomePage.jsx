@@ -4,7 +4,7 @@ import CardDestaque from "../Components/CardDestaque"
 import ColecoesDestaque2 from "../Components/ColecoesDestaque2"
 import ProdutosEmAlta from "../Components/ProdutosEmAlta"
 import Section from "../Components/Section"
-import TenisJordan from "../Components/TenisJordan"
+
 
 let StyledHomePage = styled.div`
 
