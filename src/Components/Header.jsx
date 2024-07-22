@@ -103,9 +103,9 @@ export default function Header() {
                 </div>
                 
                 <div className="">
-                    <Link to="/src\pages\PaginaNaoEncontrada.jsx" href="#" className="cadastre-se">Cadastre-se</Link>
-                    <Link to="/src\pages\PaginaNaoEncontrada.jsx">
-                    <Buttons onClick="/src\pages\PaginaNaoEncontrada.jsx" type={'PrimaryButton'} content={'Entrar'} ></Buttons>
+                    <Link to="" href="#" className="cadastre-se">Cadastre-se</Link>
+                    <Link to="">
+                    <Buttons type={'PrimaryButton'} content={'Entrar'} ></Buttons>
                     </Link>
                 </div>
                 

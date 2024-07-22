@@ -78,7 +78,7 @@ return (
       
          <div>
             <div className="produtoImage">
-               {desconto == undefined ? null : <p className="descontos">{desconto}</p> }  
+               {desconto == undefined ? <p className="descontos" style={{visibility: 'hidden'}}>a</p> : <p className="descontos">{desconto}</p> }  
                
                <img src={imagem} alt="imagem" className="img"/>
             </div>

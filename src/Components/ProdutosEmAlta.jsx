@@ -43,7 +43,8 @@ export default function ProdutosEmAlta({produto=[]}) {
       <>
       <StyledTitle>
          <h1>Produtos em alta</h1>
-         <a href="#">Ver todos <img src="\src\assets\Right24px.png" alt=""/></a>
+         
+         <Link to="/ProductListing">Ver todos <img src="\src\assets\Right24px.png" alt=""/></Link>
       </StyledTitle>
 
       <StyledProdutosEmAlta>
