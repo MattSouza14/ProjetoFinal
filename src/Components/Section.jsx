@@ -6,7 +6,7 @@ import tenis from '../assets/tenis.png'
 import  Ellipse11  from '../assets/Ellipse11.png';
 import Buttons from './Buttons'
 import { Cores } from './Cores';
-import Buttons from './Buttons'
+
 import '/src/assets/Ellipse11.png'
 
 import React from 'react';
