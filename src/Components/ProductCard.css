@@ -59,6 +59,7 @@ main{
 .card-container{
     width: 292px;
     height: 439px;
+    box-shadow: rgba(0, 0, 0, 0.3);
     
 }
 
