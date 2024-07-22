@@ -99,19 +99,25 @@ export default function Header() {
                 </div>
             
                 <div className="">
-                    <form action="">
-                        <input type="text" name="" id="" placeholder="Pesquisar produto..."/>
+                    <form action="" >
+                        <input type="text" name="" id="" placeholder="Pesquisar produto..." />
                     </form>
                 </div>
                 
                 <div className="">
-                    <a href="#" className="cadastre-se">Cadastre-se</a>
-                    <Buttons type={'PrimaryButton'} content={'Entrar'}></Buttons>
+                    <Link to="/src\pages\PaginaNaoEncontrada.jsx" href="#" className="cadastre-se">Cadastre-se</Link>
+                    <Link to="/src\pages\PaginaNaoEncontrada.jsx">
+                    <Buttons onClick="/src\pages\PaginaNaoEncontrada.jsx" type={'PrimaryButton'} content={'Entrar'} ></Buttons>
+                    </Link>
                 </div>
-        
+                
                 <div className="carrinho">
-                    <img src="src\assets\carrinhoHeader.png" alt="Carrinho" width="33px" height="29px"/>
+                    <Link to="/src\pages\PaginaNaoEncontrada.jsx">
+                        <img src="src\assets\carrinhoHeader.png" alt="Carrinho" width="33px" height="29px" />
+                    </Link>
                 </div>
+            
+            
             </div>
 
             <nav>
