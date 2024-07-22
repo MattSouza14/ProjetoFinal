@@ -6,6 +6,8 @@
 
 import styled from "styled-components";
 import { Cores } from "./Cores";
+import '../assets/White-Sneakers-PNG-Clipart2.png';
+
 
 let PrimaryButton = styled.button`
 
@@ -67,11 +69,20 @@ let ShopButton = styled.button`
    }
 `
 
-export default function Buttons ({type, content}) {
+let BannerButton= styled.button`
+width: 117.81px;
+height: 96px;
+border: 2px;
+border-color: ${Cores.primary};
+border-radius: 4px;
+`
+
+''
+export default function Buttons ({type, content, color}) {
 
    if (type == 'PrimaryButton') {
       return (
-         <PrimaryButton>{content}</PrimaryButton>
+         <PrimaryButton >{content}</PrimaryButton>
    )}
    else if (type == 'SecondaryButton') {
          return (
@@ -80,6 +91,10 @@ export default function Buttons ({type, content}) {
    else if (type == 'ShopButton') {
       return (
          <ShopButton>{content}</ShopButton>
+      )}
+   else if(type == 'BannerButton'){
+      return(
+         <BannerButton style={{backgroundColor: color}}>{<img src='/src/assets/White-Sneakers-PNG-Clipart2.png' className="imagem" alt=""/>}</ BannerButton>
       )
    }
 }
