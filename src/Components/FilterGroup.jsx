@@ -4,9 +4,9 @@ return(
 
     <div className="form-container">
                 <div className="box">
-                    <form action="">
                     <h2> Filtrar por </h2>
                          <div className="form-line"></div>
+                    <form action="">
                          <h3>Marca</h3>    
                          <input className="form-check-input" type="checkbox" value="" id="Adiddas"/>
                          <label className="form-check-label" for="Adiddas">Adiddas </label>
@@ -14,7 +14,7 @@ return(
                          <input className="form-check-input" type="checkbox" value="" id="Calenciaga"/>
                          <label className="form-check-label" for="Calenciaga">Calenciaga </label>
                          <br/>
-                         <input className="form-check-input" type="checkbox" value="" id="Swiss"/>
+                         <input className="form-check-input" type="checkbox" value="" id="K-Swiss"/>
                          <label className="form-check-label" for="K-Swiss">K-Swiss </label>
                          <br/>
                          <input className="form-check-input" type="checkbox" value="" id="Nike"/>
@@ -22,9 +22,7 @@ return(
                          <br/>
                          <input className="form-check-input" type="checkbox" value="" id="Puma"/>
                          <label className="form-check-label" for="Puma">Puma </label>
-                    </form>
-
-                    <form action="">
+                    
                     <h3>Categoria</h3> 
                          <input className="form-check-input" type="checkbox" value="" id="Esporte e lazer"/>
                          <label className="form-check-label" for="Esporte e lazer">Esporte e lazer </label>
@@ -37,9 +35,7 @@ return(
                          <br/>
                          <input className="form-check-input" type="checkbox" value="" id="Corrida"/>
                          <label className="form-check-label" for="Corrida">Corrida </label>
-                    </form>
-                       
-                     <form action="">
+                   
                      <h3>Gênero</h3>
                          <input className="form-check-input" type="checkbox" value="" id="Masculino"/>
                          <label className="form-check-label" for="Masculino"> Masculino </label>
@@ -49,9 +45,9 @@ return(
                          <br/>
                          <input className="form-check-input" type="checkbox" value="" id="Unisex"/>
                          <label className="form-check-label" for="Unisex">Unisex </label>
-                    </form>  
+                    
                        
-                        <form action="">
+                        
                         <h3> Estado</h3>
                          <input className="form-check-input" type="radio" value="novos" id="novos" name="estado"/>
                          <label className="form-radio-label" for="novos"> Novos</label>
