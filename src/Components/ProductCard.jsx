@@ -1,4 +1,3 @@
-import tenisCardUm from'../assets/tenisCardUm.png'
 import './ProductCard.css'
 import { NavLink } from 'react-router-dom'
 export default function ProductCard({desconto, imagem, nome, descricao, price, priceDiscount}){
@@ -11,7 +10,7 @@ export default function ProductCard({desconto, imagem, nome, descricao, price, p
                  {desconto == undefined? <h3 className="overlay empty">{desconto}</h3>:<h3 className="overlay">{desconto}</h3>}
               <NavLink to={"/ProductView"}>
                   <img
-                    src={tenisCardUm}
+                    src={imagem}
                     alt="Tênis"
                     className="img"
                     onClick="src\pages\ProductViewPage.jsx"
