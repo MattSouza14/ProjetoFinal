@@ -36,7 +36,7 @@ const StyledBuyBox = styled.div`
   }
 
   .buybox {
-    width: 750px;
+    width: 600px;
     height:571px;
     margin: 50px auto;
     background-color: ${Cores.white};
