@@ -19,12 +19,6 @@
     --secondary-gradient: linear-gradient(to bottom, #B5B6F2, #EFEFFF);
 
     }
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-       
-    }
     main{
         background-color:  #FFFFFF;
 
@@ -78,4 +72,7 @@
         justify-content: space-between;
         margin-top: 20px;
         margin-left: 100px;
+    }
+    .product{
+        margin-top: 1041px;
     }

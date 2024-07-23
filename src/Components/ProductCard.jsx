@@ -1,4 +1,3 @@
-import '../assets/tenisCardUm.png'
 import './ProductCard.css'
 import { NavLink } from 'react-router-dom'
 export default function ProductCard({desconto, imagem, nome, descricao, price, priceDiscount}){

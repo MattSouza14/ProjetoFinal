@@ -26,7 +26,7 @@ export default function Gallery() {
          <nav class="nav-main">
             <ul class="ordem-main">
              
-                <Link class="item-main" onClick={ProductViewPage}><a href="#">Home</a></Link>
+                <li class="item-main"><a href="#">Home</a></li>
                 <li class="item-main"><a href="#">/</a></li>
                 <li class="item-main"><a href="#">Produtos</a></li>
                 <li class="item-main"><a href="#">/</a></li>
