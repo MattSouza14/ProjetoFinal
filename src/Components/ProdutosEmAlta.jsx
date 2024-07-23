@@ -26,7 +26,6 @@ margin-right: 190px;
    }
 `
 
-
 let StyledProdutosEmAlta = styled.div`
 
    margin-left: 90px;
@@ -54,7 +53,5 @@ export default function ProdutosEmAlta({produto=[]}) {
          )}
       </StyledProdutosEmAlta>
       </>
-      
-      
    )
 }

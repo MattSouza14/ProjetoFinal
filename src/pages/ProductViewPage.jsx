@@ -41,7 +41,7 @@ export default function ProductViewPage(){
     
 
     return(
-        <>
+        <div style={{backgroundColor: '#F9F8FE'}}>
 
              <div className="d-flex">   
               <Gallery> </Gallery>
@@ -68,7 +68,7 @@ export default function ProductViewPage(){
               
             
          
-        </>
+        </div>
        
     )
 }
