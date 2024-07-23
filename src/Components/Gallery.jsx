@@ -13,12 +13,28 @@ import '../assets/White-Sneakers5.jpg'
 
 
 
+
 export default function Gallery() {
   
 
 
     return(
-        <div className="d-flex">
+
+      <main>
+         <nav class="nav-main">
+            <ul class="ordem-main">
+                <li class="item-main"><a href="#">Home</a></li>
+                <li class="item-main"><a href="#">/</a></li>
+                <li class="item-main"><a href="#">Produtos</a></li>
+                <li class="item-main"><a href="#">/</a></li>
+                <li class="item-main"><a href="#">Tênis</a></li>
+                <li class="item-main"><a href="#">/</a></li>
+                <li class="item-main"><a href="#">Nike</a></li>
+                <li class="item-main"><a href="#">/</a></li>
+                <li class="item-main"><a href="#">Tênis Nike Revolution 6 Next Nature Masculino</a></li>
+            </ul>
+        </nav>
+          <div className="d-flex">
         <div>
             <div id="carouselExampleControls " className="carousel slide Galeria" data-bs-ride="carousel">
                 <div className="carousel-inner">
@@ -63,6 +79,15 @@ export default function Gallery() {
           
          
     </div>
+
+      </main>
+        
+           
+    
+      
+      
+        
+
 
 
     )
