@@ -1,6 +1,8 @@
 import ProdutosRelacionados from "../Components/ProdutosRelacionados"
 import BuyBox from "../Components/BuyBox"
 import Gallery from "../Components/Gallery"
+import tenisCardUm from'../assets/tenisCardUm.png'
+
 
 
 export default function ProductViewPage(){
@@ -10,33 +12,31 @@ export default function ProductViewPage(){
         descricao:'K-Swiss V8 - Masculino',
         oldPrice: '$200',
         newPrice:'$149.9',
-        desconto:'%30 OFF',
-        imagem: 'src/assets/tenisCardUm.png',
-        hasDiscount: ''
+        desconto:'30% OFF',
+        imagem: tenisCardUm 
       },
       {
         nome: 'Tênis',
         descricao:'K-Swiss V8 - Masculino',
         oldPrice: '$200',
         newPrice:'$149.9',
-        desconto:'%30 OFF',
-        imagem: 'src/assets/tenisCardUm.png',
-        hasDiscount: ''
-    
+        desconto:'30% OFF',
+        imagem: tenisCardUm 
       },
       {
         nome: 'Tênis',
         descricao:'K-Swiss V8 - Masculino',
         oldPrice: '$200',
         newPrice:'$149.9',
-        imagem: 'src/assets/tenisCardUm.png'
-    },
+        imagem: tenisCardUm 
+      },
+
     {
       nome: 'Tênis',
       descricao:'K-Swiss V8 - Masculino',
       oldPrice: '$200',
       newPrice:'$149.9',
-      imagem: 'src/assets/tenisCardUm.png'
+      imagem: tenisCardUm 
     }]
     
 

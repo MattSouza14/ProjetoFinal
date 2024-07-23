@@ -27,9 +27,7 @@
     --secondary-gradient: linear-gradient(to bottom, #B5B6F2, #EFEFFF);
     /*Cores*/
 }
-main{
-    background-color:  #E5E5E5;
-}
+
 #products{
     display: flex;
     padding: 0 100px 140px 100px;
