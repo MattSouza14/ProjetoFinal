@@ -49,6 +49,7 @@ const StyledBuyBox = styled.div`
     font-size: 32px;
     color: ${Cores.darkGray};
     margin-bottom: 10px;
+    font-weight: bold;
   }
 
   .descricao-referencia {
@@ -226,7 +227,7 @@ const StyledBuyBox = styled.div`
     align-items: center;
     justify-content: center;
   }
-`;
+`
 
 export default function BuyBox({ name, reference, pontuacao, rating, price, priceDiscount, description }) {
     

@@ -53,14 +53,20 @@ export default function ProductViewPage(){
               rating={45}
               price={279.00}
               priceDiscount={219.00}
-              description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repudiandae laudantium, accusamus vero esse alias debitis sed autem ad omnis voluptas vitae odit, quasi obcaecati eaque nisi optio illo voluptatem."}
+              description={<><p>Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit.</p><p>Quod repudiandae laudantium, accusamus vero esse alias debitis</p>
+                <p>sed autem ad omnis voluptas vitae odit, quasi obcaecati eaque</p><p>nisi optio illo voluptatem.</p></>}
               >
             </BuyBox> 
+            
 
 
              </div>
+             <br></br>
+              <ProdutosRelacionados produto={produtos}></ProdutosRelacionados>
+             
               
-            <ProdutosRelacionados produto={produtos}></ProdutosRelacionados>
+            
          
         </>
        

@@ -6,7 +6,7 @@
 
 import styled from "styled-components";
 import { Cores } from "./Cores";
-import '../assets/White-Sneakers-PNG-Clipart2.png';
+import sapato from '../assets/White-Sneakers-PNG-Clipart2.png';
 
 
 let PrimaryButton = styled.button`
@@ -94,7 +94,7 @@ export default function Buttons ({type, content, color}) {
       )}
    else if(type == 'BannerButton'){
       return(
-         <BannerButton style={{backgroundColor: color}}>{<img src='/src/assets/White-Sneakers-PNG-Clipart2.png' className="imagem" alt=""/>}</ BannerButton>
+         <BannerButton style={{backgroundColor: color}}>{<img src={sapato} className="imagem" alt=""/>}</ BannerButton>
       )
    }
 }
