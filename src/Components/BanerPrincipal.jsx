@@ -1,5 +1,5 @@
-import '../assets/Tenispag1.png'
-import'../assets/Ornament11.png'
+import tenis from '../assets/Tenispag1.png'
+import ornament from '../assets/Ornament11.png'
 import Buttons from './Buttons'
 import styled from 'styled-components'
 
@@ -74,11 +74,11 @@ export default function BanerPrincipal(){
                         </div>
 
                         <div className="White-Sneakers1">
-                            <img src="src\assets\Tenispag1.png" alt="White-Sneakers" width={"600px"}/>
+                            <img src={tenis} alt="White-Sneakers" width={"600px"}/>
                         </div>
 
                         <div>
-                            <img src="src\assets\Ornament11.png" alt="Ornament_11" className="Ornament11"/>
+                            <img src={ornament} alt="Ornament_11" className="Ornament11"/>
                         </div>
                     </div>                    
                 </div>
@@ -100,11 +100,11 @@ export default function BanerPrincipal(){
                         </div>
 
                         <div className="White-Sneakers1">
-                            <img src="src\assets\Tenispag1.png" alt="White-Sneakers" width={"600px"}/>
+                            <img src={tenis} alt="White-Sneakers" width={"600px"}/>
                         </div>
 
                         <div>
-                            <img src="src\assets\Ornament11.png" alt="Ornament_11" className="Ornament11"/>
+                            <img src={ornament} alt="Ornament_11" className="Ornament11"/>
                         </div>
                     </div>                    
                 </div>
@@ -126,11 +126,11 @@ export default function BanerPrincipal(){
                         </div>
 
                         <div className="White-Sneakers1">
-                            <img src="src\assets\Tenispag1.png" alt="White-Sneakers" width={"600px"}/>
+                            <img src={tenis} alt="White-Sneakers" width={"600px"}/>
                         </div>
 
                         <div>
-                            <img src="src\assets\Ornament11.png" alt="Ornament_11" className="Ornament11"/>
+                            <img src={ornament} alt="Ornament_11" className="Ornament11"/>
                         </div>
                     </div>                    
                 </div>

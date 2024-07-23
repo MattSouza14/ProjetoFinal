@@ -219,7 +219,7 @@ const StyledBuyBox = styled.div`
     align-items: center;
     justify-content: center;
   }
-`;
+`
 
 export default function BuyBox({ name, reference, pontuacao, rating, price, priceDiscount, description }) {
     
