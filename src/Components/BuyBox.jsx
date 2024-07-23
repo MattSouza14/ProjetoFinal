@@ -42,6 +42,7 @@ const StyledBuyBox = styled.div`
     font-size: 32px;
     color: ${Cores.darkGray};
     margin-bottom: 10px;
+    font-weight: bold;
   }
 
   .descricao-referencia {

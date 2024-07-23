@@ -36,9 +36,9 @@ let StyledJordan = styled.div`
 }
 
 .section-title {
-  font-size: 18px; /* Tamanho da fonte do título */
-  color: var(--primary); /* Cor do texto */
-  margin-bottom: 10px; /* Espaçamento inferior */
+  font-size: 18px; 
+  color: var(--primary); 
+  margin-bottom: 10px; 
 }
 
 .titleAirJordan {
