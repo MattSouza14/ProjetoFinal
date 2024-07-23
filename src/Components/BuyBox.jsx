@@ -39,7 +39,7 @@ const StyledBuyBox = styled.div`
     width: 600px;
     height:571px;
     margin: 50px auto;
-    background-color: ${Cores.white};
+    
     padding: 20px;
     
     
@@ -136,7 +136,6 @@ const StyledBuyBox = styled.div`
 
   .tamanho-container .btn-group-toggle .btn {
     margin-right: 10px;
-    background-color: ${Cores.white};
     color: ${Cores.darkGray2};
     border: solid ${Cores.darkGray2} 1px;
     width: 40px;

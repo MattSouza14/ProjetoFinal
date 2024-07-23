@@ -24,7 +24,6 @@ let StyledGallery = styled.div`
   display: flex;
   list-style-type: none;
   margin-left: 80px;
-  background-color:  #FFFFFF;;  
   }
 
   .item-main a{
