@@ -2,9 +2,11 @@
 import { NavLink, Link } from 'react-router-dom';
 import '../Components/Section.css'; // Ajuste o caminho correto para o arquivo CSS
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Laye1 from '../assets/Laye1.png'; // Exemplo de caminho relativo
-import { Cores } from './Cores';
+import tenis from '../assets/tenis.png'
+import  Ellipse11  from '../assets/Ellipse11.png';
 import Buttons from './Buttons'
+import { Cores } from './Cores';
+
 import '/src/assets/Ellipse11.png'
 
 import React from 'react';
@@ -72,31 +74,22 @@ let StyledJordan = styled.div`
 
 export default function Section() {
   return (
-    <StyledJordan>
-      
-      <div className="container">
-      <div className='imagem'>
-        <img src={Laye1} className='jordan' alt='Logo' />
-      </div>
-      
-      <div className="text-container">
-        <h3 className='section-title'>oferta especial</h3>
-        <h1 className='titleAirJordan'>Air Jordan edição de colecionador</h1>
-        <p className='sectionDescrption'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-          quis nostrud exercitation ullamco laboris nisi ut aliquip
+    <div class="container">
+          <img src={tenis} class='img-fluid' alt='tenis' />
+      <div class="text-container">
+          <h3 class='section-title'>oferta especial</h3>
+          <h2 class='titleAirJordan'>Air Jordan edição de colecionador</h2>
+        <p class='sectionDescrption'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
         </p>
-        
-          <Link to="src\pages\PaginaNaoEncontrada.jsx">
-            <Buttons type={'PrimaryButton'} content={'Ver Oferta'}></Buttons>
-          </Link>
-        
-        
+        <br></br>
+            <Link to="src\pages\PaginaNaoEncontrada.jsx">
+              <Buttons type={'PrimaryButton'} content={'Ver Oferta'}></Buttons>
+            </Link>
       </div>
-      
+  
     </div>
-    </StyledJordan>
-    
   )
 }
 

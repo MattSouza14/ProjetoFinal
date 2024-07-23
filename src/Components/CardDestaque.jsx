@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Buttons from "./Buttons"
 import { styled } from "styled-components"
 
@@ -14,6 +15,7 @@ let  StyledCardDestaque = styled.div`
         display: flex;
         width: auto;
         margin: 20px 90px;
+        flex-wrap: wrap
 
     }
 
@@ -30,11 +32,13 @@ let  StyledCardDestaque = styled.div`
         font-size: 32px;
     }  
     .myCard {
+        
         height: 251px;
         width: 405px;
-        margin: 0px 6px;
+        margin: 5px 6px;
         border-radius: 8px;
         background-color: #D8E3F2;
+
         
         div {
 
@@ -88,8 +92,9 @@ export default function CardDestaque(){
                         <p className="descontos">30% OFF</p>
 
                         <h3>Novo drop Supreme</h3>
-
-                        <Buttons type={'SecondaryButton'} content={'Comprar'}></Buttons>
+                        <Link to="/ProductView">
+                            <Buttons type={'SecondaryButton'} content={'Comprar'}></Buttons>
+                        </Link>
                     </div>
                 </div>
                 <div className="myCard card2">
@@ -97,8 +102,9 @@ export default function CardDestaque(){
                         <p className="descontos">30% OFF</p>
 
                         <h3>Coleção Adidas</h3>
-
-                        <Buttons type={'SecondaryButton'} content={'Comprar'}></Buttons>
+                        <Link to="/ProductView">
+                            <Buttons type={'SecondaryButton'} content={'Comprar'}></Buttons>
+                        </Link>
                     </div>
                 </div>
                 <div  className="myCard card3">
@@ -107,7 +113,9 @@ export default function CardDestaque(){
 
                         <h3>Novo Beats Bass</h3>
 
-                        <Buttons type={'SecondaryButton'} content={'Comprar'}></Buttons>
+                        <Link to="/ProductView">
+                            <Buttons type={'SecondaryButton'} content={'Comprar'}></Buttons>
+                        </Link>
                     </div>
                 </div>
             </div>   
