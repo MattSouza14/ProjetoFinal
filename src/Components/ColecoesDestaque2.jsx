@@ -4,9 +4,10 @@ import { Cores } from "./Cores"
 let StyledDiv = styled.div`
 
    display: flex;
-   flex-wrap: wrap;
+
    flex-direction: column;
    align-items: center;
+
    .tituloIcones {
       align-self: center;
       margin-top: 80px;
@@ -15,12 +16,12 @@ let StyledDiv = styled.div`
       color: ${Cores.darkGray2};
    }
    .icones {
-      
+      display: flex;
       justify-content: space-between;
       align-self: center;
       width: 700px;
       margin-bottom: 100px;
-      /* o sombreamento da camiseta esta dentro da tag no html */
+      
       cursor: pointer;
       
       div {

@@ -11,8 +11,10 @@ const HeaderStyled = styled.div`
     background-color: white;
     padding-top: 40px;
     padding-bottom: 30px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
     
     
     .header1{

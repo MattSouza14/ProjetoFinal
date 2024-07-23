@@ -7,6 +7,8 @@ import '../assets/White-Sneakers2.jpg'
 import '../assets/White-Sneakers3.jpg'
 import '../assets/White-Sneakers4.jpg'
 import '../assets/White-Sneakers5.jpg'
+import{NavLink, Link, useLocation} from 'react-router-dom'
+import ProductViewPage from '../pages/HomePage.jsx'
 
 
 
@@ -23,7 +25,8 @@ export default function Gallery() {
       <main>
          <nav class="nav-main">
             <ul class="ordem-main">
-                <li class="item-main"><a href="#">Home</a></li>
+             
+                <Link class="item-main" onClick={ProductViewPage}><a href="#">Home</a></Link>
                 <li class="item-main"><a href="#">/</a></li>
                 <li class="item-main"><a href="#">Produtos</a></li>
                 <li class="item-main"><a href="#">/</a></li>
