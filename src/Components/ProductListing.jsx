@@ -1,9 +1,12 @@
 import ProductCard from "./ProductCard";
 import './ProductCard.css'
+import { produtosContexto } from "../context/Contexto";
+import React, { useContext } from "react";
 
 
     
 export default function ProductListing({produtos}) {
+
 
     return (
      
@@ -18,3 +21,5 @@ export default function ProductListing({produtos}) {
     
  
   }
+
+  // nome={produto.nome} descricao={produto.descricao} desconto={produto.desconto} price={produto.price} priceDiscount={produto.priceDiscount} imagem={produto.imagem}

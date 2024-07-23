@@ -7,7 +7,7 @@ export default function ProductCard({desconto, imagem, nome, descricao, price, p
          <div className="products-grid">
             <div className="card-container">
                 <div className ="image-container">
-                 {desconto == undefined? <h3 className="overlay empty">{desconto}</h3>:<h3 className="overlay">{desconto}</h3>}
+                 {desconto == undefined? <h3 className="overflow empty">{desconto}</h3>:<h3 className="overflow">{desconto}</h3>}
               <Link to={"/ProductView"}>
                   <img
                     src={imagem}

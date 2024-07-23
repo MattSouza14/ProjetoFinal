@@ -79,8 +79,11 @@ return (
          <div>
             <div className="produtoImage">
                {desconto == undefined ? <p className="descontos" style={{visibility: 'hidden'}}>a</p> : <p className="descontos">{desconto}</p> }  
-               
-               <img src={imagem} alt="imagem" className="img"/>
+               <Link to={"/ProductView"}>
+               <img src={imagem} 
+               alt="imagem" 
+               className="img"/>
+               </Link>
             </div>
             <div className="produtoDescricao" onClick="src\pages\ProductViewPage.jsx">
                <h4>{nome}</h4>

@@ -73,7 +73,7 @@
     
     
 }
-.overlay {
+.overflow {
     width: 96px;
     height: 32px;
 
@@ -92,7 +92,7 @@
     line-height: 22px;
     font-weight: bold;
 }
-.overlay.empty {
+.overflow.empty {
     visibility: hidden; 
 }
 .title{

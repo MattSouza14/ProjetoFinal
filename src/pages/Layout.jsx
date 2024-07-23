@@ -10,11 +10,11 @@ export default function Layout(){
     return(
 <>
 <BrowserRouter>
-    {/* <MeuContextoProvider> */}
+    <MeuContextoProvider>
         <Header/>
             <Rotas/>
         <Footer/>
-    {/* </MeuContextoProvider> */}
+    </MeuContextoProvider>
 </BrowserRouter>
 </>
    

@@ -1,29 +1,131 @@
 import React, { Children, useState } from "react";
 import { createContext } from "react";
+import tenisCardUm from'../assets/tenisCardUm.png'
 
 
-let meuContexto = createContext()
+export let produtosContexto = createContext()
 
-function MeuContextoProvider({children}){
+export function MeuContextoProvider({children}){
+    let Produtos = [{
+    nome: 'Tênis',
+    descricao:'K-Swiss V8 - Masculino',
+    price: '$200',
+    priceDiscount:'$149.9',
+    desconto:'30% OFF',
+    imagem: tenisCardUm,
+    
+  },
+  {
+    nome: 'Tênis',
+    descricao:'K-Swiss V8 - Masculino',
+    price: '$200',
+    priceDiscount:'$149.9',
+    desconto:'30% OFF',
+    imagem: tenisCardUm,
+    
 
-    let [pessoas, setpessoas]= useState(
-        [
-            {id: 1, nome:"João", idade:30},
-            {id: 2, nome:"Maria", idade:23},
-            {id: 3, nome:"Cleitinho", idade:54},
-            {id: 4, nome:"Eu", idade:34}
+  },
+  {
+    nome: 'Tênis',
+    descricao:'K-Swiss V8 - Masculino',
+    price: '$200',
+    imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
 
-        ]
-    )
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+},
+{
+  nome: 'Tênis',
+  descricao:'K-Swiss V8 - Masculino',
+  price: '$200',
+  
+  imagem: tenisCardUm
+}
+  
+]
+    const [produtos, setProdutos] = useState(Produtos) 
+    
+    return (
 
-return (
-
-    <MeuContextoProvider.Porvider value={{pessoas, setpessoas}}>
+    <produtosContexto.Provider value={{produtos, setProdutos}}>
         {children}
-    </MeuContextoProvider.Porvider>
+    </produtosContexto.Provider>
 
 
 )
 }
 
-export {meuContexto, MeuContextoProvider}
