@@ -21,7 +21,7 @@ let StyledDiv = styled.div`
       align-self: center;
       width: 700px;
       margin-bottom: 100px;
-      /* o sombreamento da camiseta esta dentro da tag no html */
+      
       cursor: pointer;
       
       div {
