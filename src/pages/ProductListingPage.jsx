@@ -1,4 +1,3 @@
-
 import ProductListing from "../Components/ProductListing"
 import ProductFilter from "../Components/ProductFilter"
 import FilterGroup from "../Components/FilterGroup"
@@ -11,8 +10,8 @@ export default function ProdructListingPage(){
             descricao:'K-Swiss V8 - Masculino',
             price: '$200',
             priceDiscount:'$149.9',
-            desconto:'%30 OFF',
-            imagem: 'src/assets/tenisCardUm.png',
+            desconto:'30% OFF',
+            imagem: {te},
             
           },
           {
@@ -20,7 +19,7 @@ export default function ProdructListingPage(){
             descricao:'K-Swiss V8 - Masculino',
             price: '$200',
             priceDiscount:'$149.9',
-            desconto:'%30 OFF',
+            desconto:'30% OFF',
             imagem: 'src/assets/tenisCardUm.png',
             
         

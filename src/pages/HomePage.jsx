@@ -17,7 +17,7 @@ export default function HomePage(){
         descricao:'K-Swiss V8 - Masculino',
         oldPrice: '$200',
         newPrice:'$149.9',
-        desconto:'%30 OFF',
+        desconto:'30% OFF',
         imagem: 'src/assets/tenisCardUm.png',
       },
       {
@@ -25,7 +25,7 @@ export default function HomePage(){
         descricao:'K-Swiss V8 - Masculino',
         oldPrice: '$200',
         newPrice:'$149.9',
-        desconto:'%30 OFF',
+        desconto:'30% OFF',
         imagem: 'src/assets/tenisCardUm.png',
     
       },
