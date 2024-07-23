@@ -79,15 +79,8 @@ return (
          <div>
             <div className="produtoImage">
                {desconto == undefined ? <p className="descontos" style={{visibility: 'hidden'}}>a</p> : <p className="descontos">{desconto}</p> }  
-<<<<<<< HEAD
-               <Link to={"/ProductView"}>
-               <img src={imagem} 
-               alt="imagem" 
-               className="img"/>
-=======
                <Link to='/ProductView'>
                   <img src={imagem} alt="imagem" className="img"/>
->>>>>>> d832b531ca2b270e83b861b4bf913b5eeda1d370
                </Link>
             </div>
             <div className="produtoDescricao" onClick="src\pages\ProductViewPage.jsx">
