@@ -4,6 +4,13 @@ import { Cores } from './Cores';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Buttons from './Buttons';
 import { Link } from 'react-router-dom';
+import star1 from '../assets/Stars Product Option/Star 01.svg'
+import star2 from '../assets/Stars Product Option/Star 01.svg'
+import star3 from '../assets/Stars Product Option/Star 01.svg'
+import star4 from '../assets/Stars Product Option/Star 01.svg'
+import star5 from '../assets/Stars Product Option/Star 02.svg'
+import pontos from '../assets/Stars Product Option/pontuacao.svg'
+
 
 const StyledBuyBox = styled.div`
   .tamanho-opcoes label {
@@ -244,13 +251,13 @@ export default function BuyBox({ name, reference, pontuacao, rating, price, pric
 
           <div className="avaliacao-main">
             <div className="avaliacao-stars">
-              <img className="star" src="src/assets/Stars Product Option/Star 01.svg" alt="Star" />
-              <img className="star" src="src/assets/Stars Product Option/Star 01.svg" alt="Star" />
-              <img className="star" src="src/assets/Stars Product Option/Star 01.svg" alt="Star" />
-              <img className="star" src="src/assets/Stars Product Option/Star 01.svg" alt="Star" />
-              <img className="star" src="src/assets/Stars Product Option/Star 02.svg" alt="Star" />
+              <img className="star" src={star1} alt="Star" />
+              <img className="star" src={star2} alt="Star" />
+              <img className="star" src={star3} alt="Star" />
+              <img className="star" src={star4} alt="Star" />
+              <img className="star" src={star5} alt="Star" />
             </div>
-            <img className="pontuacao" src="src/assets/Stars Product Option/pontuacao.svg" alt="Pontuacao" />
+            <img className="pontuacao" src={pontos} alt="Pontuacao" />
             <span className="avaliacao-rating">{rating} (avaliações) </span>
           </div>
 

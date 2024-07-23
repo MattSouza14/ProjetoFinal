@@ -1,6 +1,5 @@
 import Buttons from "./Buttons"
 import { Cores } from "./Cores"
-import whiteSneakersClip from '../assets/White-Sneakers-PNG-Clipart2.png'
 import whiteSneakers from '../assets/White-Sneakers.jpg'
 import whiteSneakers2 from '../assets/White-Sneakers2.jpg'
 import whiteSneakers3 from '../assets/White-Sneakers3.jpg'

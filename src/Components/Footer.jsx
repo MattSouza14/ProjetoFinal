@@ -1,7 +1,7 @@
-import logo from '../assets/footerLogo.png'
-import facebook from '../assets/footerFacebook.png'
-import insta from '../assets/footerInsta.png'
-import twitter from '../assets/footerTwitter.png'
+import footerLogo from '../assets/footerLogo.png'
+import footerFace from'../assets/footerFacebook.png'
+import footerInsta from'../assets/footerInsta.png'
+import footerTwitter from'../assets/footerTwitter.png'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import { Cores } from './Cores'
@@ -131,7 +131,7 @@ return(
         <div className="footer-info">
             <div className="footer-brand">
               <div className="footer-logo">
-                <img src={logo} alt="Logo Digital Store" className="logo"/>
+                <img src={footerLogo} alt="Logo Digital Store" className="logo"/>
                 <h1>Digital Store</h1>
               </div>
               <div className="description">
@@ -140,9 +140,9 @@ return(
               </div>
                 <div className="social-links">
                     <ul>
-                        <li><a href="#"><img src={facebook} alt="Icone Facebook"/></a></li>
-                        <li><a href="#"><img src={insta} alt="Icone Instagram"/></a></li>
-                        <li><a href="#"><img src={twitter} alt="Icone Twitter"/></a></li>
+                        <li><a href="#"><img src={footerFace} alt="Icone Facebook"/></a></li>
+                        <li><a href="#"><img src={footerInsta} alt="Icone Instagram"/></a></li>
+                        <li><a href="#"><img src={footerTwitter} alt="Icone Twitter"/></a></li>
                     </ul>
 
                 </div>
