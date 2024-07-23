@@ -1,5 +1,5 @@
-import '../assets/logoHeader.png'
-import '../assets/carrinhoHeader.png'
+import logo from '../assets/logoHeader.png'
+import carrinho from '../assets/carrinhoHeader.png'
 import styled from 'styled-components'
 import Buttons from './Buttons'
 import{NavLink, Link, useLocation} from 'react-router-dom'
@@ -95,7 +95,7 @@ export default function Header() {
             <div className="header1">
 
                 <div className="logo">
-                    <img src="src\assets\logoHeader.png" alt="Digital College logo" width="253px" height="44px"/>
+                    <img src={logo} alt="Digital College logo" width="253px" height="44px"/>
                 </div>
             
                 <div className="">
@@ -112,8 +112,8 @@ export default function Header() {
                 </div>
                 
                 <div className="carrinho">
-                    <Link to="/src\pages\PaginaNaoEncontrada.jsx">
-                        <img src="src\assets\carrinhoHeader.png" alt="Carrinho" width="33px" height="29px" />
+                    <Link to="/Carrinho">
+                        <img src={carrinho} alt="Carrinho" width="33px" height="29px" />
                     </Link>
                 </div>
             

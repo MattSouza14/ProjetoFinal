@@ -6,7 +6,8 @@ import{NavLink, Link, useLocation} from 'react-router-dom'
 
 let StyledTitle = styled.div`
 
-margin-right: 190px;
+   margin-right: 190px;
+   margin-top: 70px;
    display: flex;
    justify-content: space-between;
    h1 {
