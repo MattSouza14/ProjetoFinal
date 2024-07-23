@@ -29,11 +29,12 @@ const StyledBuyBox = styled.div`
   }
 
   .buybox {
-    width: 750px;
+    width: 700px;
     height:571px;
     margin: 50px auto;
     background-color: ${Cores.white};
     padding: 20px;
+    margin-top: 25px;
     
     
   }
@@ -43,6 +44,7 @@ const StyledBuyBox = styled.div`
     color: ${Cores.darkGray};
     margin-bottom: 10px;
     font-weight: bold;
+  
   }
 
   .descricao-referencia {
@@ -251,7 +253,7 @@ export default function BuyBox({ name, reference, pontuacao, rating, price, pric
               <img className="star" src="src/assets/Stars Product Option/Star 02.svg" alt="Star" />
             </div>
             <img className="pontuacao" src="src/assets/Stars Product Option/pontuacao.svg" alt="Pontuacao" />
-            <span className="avaliacao-rating">{rating} (avaliações) </span>
+            <span className="avaliacao-rating">{rating}</span>
           </div>
 
           <div className="price-container">

@@ -12,7 +12,8 @@ margin-right: 190px;
    h1 {
       font-weight: bold;
       color: ${Cores.darkGray2};
-      margin-left: 90px;
+      margin-left: 100px;
+      margin-top: 71px;
    }
    a {
       color: ${Cores.primary};
@@ -29,7 +30,7 @@ margin-right: 190px;
 
 let StyledProdutosEmAlta = styled.div`
 
-   margin-left: 90px;
+   margin-left: 100px;
    margin-bottom: 130px;
    display: flex;
    justify-content: space-between;
