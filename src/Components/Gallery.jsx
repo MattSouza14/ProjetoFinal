@@ -2,13 +2,14 @@ import Buttons from "./Buttons"
 import { Cores } from "./Cores"
 import '../assets/White-Sneakers-PNG-Clipart2.png'
 import '../Components/Gallery.css'
-import '../assets/White-Sneakers.jpg'
-import '../assets/White-Sneakers2.jpg'
-import '../assets/White-Sneakers3.jpg'
-import '../assets/White-Sneakers4.jpg'
-import '../assets/White-Sneakers5.jpg'
+import whiteSneakrs from  '../assets/White-Sneakers.jpg'
+import whiteSneakrs2 from '../assets/White-Sneakers2.jpg'
+import whiteSneakrs3 from '../assets/White-Sneakers3.jpg'
+import whiteSneakrs4 from '../assets/White-Sneakers4.jpg'
+import whiteSneakrs5 from '../assets/White-Sneakers5.jpg'
 import{NavLink, Link, useLocation} from 'react-router-dom'
 import ProductViewPage from '../pages/HomePage.jsx'
+
 
 
 
@@ -42,19 +43,19 @@ export default function Gallery() {
             <div id="carouselExampleControls " className="carousel slide Galeria" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src='src/assets/White-Sneakers.jpg'  alt="..."/>
+                    <img src={whiteSneakrs}  alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src='src/assets/White-Sneakers2.jpg'  alt="..."/>
+                    <img src={whiteSneakrs2}  alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src='src/assets/White-Sneakers3.jpg'  alt="..."/>
+                    <img src={whiteSneakrs3}  alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src='src/assets/White-Sneakers4.jpg' alt="..."/>
+                    <img src={whiteSneakrs4} alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src='src/assets/White-Sneakers5.jpg' alt="..."/>
+                    <img src={whiteSneakrs5} alt="..."/>
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

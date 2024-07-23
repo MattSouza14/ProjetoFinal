@@ -1,5 +1,5 @@
 import './ProductCard.css'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 export default function ProductCard({desconto, imagem, nome, descricao, price, priceDiscount}){
     return(
      
@@ -8,14 +8,14 @@ export default function ProductCard({desconto, imagem, nome, descricao, price, p
             <div className="card-container">
                 <div className ="image-container">
                  {desconto == undefined? <h3 className="overlay empty">{desconto}</h3>:<h3 className="overlay">{desconto}</h3>}
-              <NavLink to={"/ProductView"}>
+              <Link to={"/ProductView"}>
                   <img
                     src={imagem}
                     alt="Tênis"
                     className="img"
                     onClick="src\pages\ProductViewPage.jsx"
                   />
-                </NavLink>
+                </Link>
                 </div>
                 <div className="description">
                   <h4 className="title">{nome}</h4>

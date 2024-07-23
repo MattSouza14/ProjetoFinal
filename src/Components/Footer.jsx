@@ -1,7 +1,7 @@
-import '../assets/footerLogo.png'
-import '../assets/footerFacebook.png'
-import '../assets/footerInsta.png'
-import '../assets/footerTwitter.png'
+import footerLogo from '../assets/footerLogo.png'
+import footerFace from'../assets/footerFacebook.png'
+import footerInsta from'../assets/footerInsta.png'
+import footerTwitter from'../assets/footerTwitter.png'
 import { NavLink } from 'react-router-dom'
 
 
@@ -14,7 +14,7 @@ return(
         <div className="footer-info">
             <div className="footer-brand">
               <div className="footer-logo">
-                <img src="src\assets\footerLogo.png" alt="Logo Digital Store" className="logo"/>
+                <img src={footerLogo} alt="Logo Digital Store" className="logo"/>
                 <h1>Digital Store</h1>
               </div>
               <div className="description">
@@ -23,9 +23,9 @@ return(
               </div>
                 <div className="social-links">
                     <ul>
-                        <li><a href="#"><img src="src\assets\footerFacebook.png" alt="Icone Facebook"/></a></li>
-                        <li><a href="#"><img src="src\assets\footerInsta.png" alt="Icone Instagram"/></a></li>
-                        <li><a href="#"><img src="src\assets\footerTwitter.png" alt="Icone Twitter"/></a></li>
+                        <li><a href="#"><img src={footerFace} alt="Icone Facebook"/></a></li>
+                        <li><a href="#"><img src={footerInsta} alt="Icone Instagram"/></a></li>
+                        <li><a href="#"><img src={footerTwitter} alt="Icone Twitter"/></a></li>
                     </ul>
 
                 </div>

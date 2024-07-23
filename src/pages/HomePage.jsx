@@ -4,6 +4,7 @@ import CardDestaque from "../Components/CardDestaque"
 import ColecoesDestaque2 from "../Components/ColecoesDestaque2"
 import ProdutosEmAlta from "../Components/ProdutosEmAlta"
 import Section from "../Components/Section"
+import tenisCardUm from'../assets/tenisCardUm.png'
 
 
 let StyledHomePage = styled.div`
@@ -18,7 +19,7 @@ export default function HomePage(){
         oldPrice: '$200',
         newPrice:'$149.9',
         desconto:'30% OFF',
-        imagem: 'src/assets/tenisCardUm.png',
+        imagem: tenisCardUm
       },
       {
         nome: 'Tênis',
@@ -26,7 +27,7 @@ export default function HomePage(){
         oldPrice: '$200',
         newPrice:'$149.9',
         desconto:'30% OFF',
-        imagem: 'src/assets/tenisCardUm.png',
+        imagem: tenisCardUm
     
       },
       {
@@ -34,42 +35,42 @@ export default function HomePage(){
         descricao:'K-Swiss V8 - Masculino',
         oldPrice: '$200',
         newPrice:'$149.9',
-        imagem: 'src/assets/tenisCardUm.png'
+        imagem: tenisCardUm
     },
     {
       nome: 'Tênis',
       descricao:'K-Swiss V8 - Masculino',
       oldPrice: '$200',
       newPrice:'$149.9',
-      imagem: 'src/assets/tenisCardUm.png'
+      imagem: tenisCardUm
     },
     {
       nome: 'Tênis',
       descricao:'K-Swiss V8 - Masculino',
       oldPrice: '$200',
       newPrice:'$149.9',
-      imagem: 'src/assets/tenisCardUm.png'
+      imagem: tenisCardUm
     },
     {
       nome: 'Tênis',
       descricao:'K-Swiss V8 - Masculino',
       oldPrice: '$200',
       newPrice:'$149.9',
-      imagem: 'src/assets/tenisCardUm.png'
+      imagem: tenisCardUm
     },
     {
       nome: 'Tênis',
       descricao:'K-Swiss V8 - Masculino',
       oldPrice: '$200',
       newPrice:'$149.9',
-      imagem: 'src/assets/tenisCardUm.png'
+      imagem: tenisCardUm
     },
     {
       nome: 'Tênis',
       descricao:'K-Swiss V8 - Masculino',
       oldPrice: '$200',
       newPrice:'$149.9',
-      imagem: 'src/assets/tenisCardUm.png'
+      imagem: tenisCardUm
     }]
 
     return(
