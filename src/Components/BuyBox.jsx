@@ -41,6 +41,7 @@ const StyledBuyBox = styled.div`
     margin: 50px auto;
     
     padding: 20px;
+    margin-top: 25px;
     
     
   }
@@ -50,6 +51,7 @@ const StyledBuyBox = styled.div`
     color: ${Cores.darkGray};
     margin-bottom: 10px;
     font-weight: bold;
+  
   }
 
   .descricao-referencia {

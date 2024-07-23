@@ -92,7 +92,7 @@ export default function Gallery() {
         </nav>
           <div className="d-flex">
         <div>
-            <div id="carouselExampleControls " className="carousel slide Galeria" data-bs-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide Galeria" data-bs-ride="carousel" data-bs-interval="false">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
                     <img src={whiteSneakers}  alt="..."/>
@@ -110,14 +110,14 @@ export default function Gallery() {
                     <img src={whiteSneakers5} alt="..."/>
                   </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <a className="carousel-control-prev" role="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                   <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                </a>
+                <a className="carousel-control-next" role="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                   <span className="carousel-control-next-icon" aria-hidden="true"></span>
                   <span className="visually-hidden">Next</span>
-                </button>
+                </a>
               </div>
               <div className="div2">
                 <Buttons type={"BannerButton"} color={Cores.bannerButton1} />
