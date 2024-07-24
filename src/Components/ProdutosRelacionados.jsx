@@ -45,8 +45,8 @@ export default function ProdutosEmAlta({produto=[]}) {
       <>
       <StyledTitle>
          <h1>Produtos Relacionados</h1>
-         <Link to="src\pages\ProductListingPage.jsx">
-            <Link href="#" >Ver todos <img src="\src\assets\Right24px.png" alt=""/></Link>
+         <Link to="/ProductListing">
+            Ver todos <img src="\src\assets\Right24px.png" alt=""/>
          </Link>
       </StyledTitle>
 

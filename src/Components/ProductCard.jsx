@@ -37,6 +37,28 @@ let StyledProductCard = styled.div`
     box-shadow: rgba(0, 0, 0, 0.3);
     
 }
+.overflow {
+    width: 96px;
+    height: 32px;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+
+    background: #E7FF86;
+    color:var(--dark-gray-2);
+
+    padding: 5px 15px;
+
+    border-radius: 29px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+}
+.overflow.empty {
+    visibility: hidden; 
+}
 .image-container{
     background-color: var(--white);
     width: 292px;
@@ -111,7 +133,7 @@ export default function ProductCard({desconto, imagem, nome, descricao, price, p
          <div className="products-grid">
             <div className="card-container">
                 <div className ="image-container">
-                 {desconto == undefined? <h3 className="overflow empty">{desconto}</h3>:<h3 className="overflow">{desconto}</h3>}
+                 {desconto == undefined ? <h3 className="overflow empty">{desconto}</h3> : <h3 className="overflow">{desconto}</h3>}
               <Link to={"/ProductView"}>
                   <img
                     src={imagem}

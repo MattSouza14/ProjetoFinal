@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import ProductCard from "./ProductCard";
-import './ProductCard.css'
 import { produtosContexto } from "../context/Contexto";
 import React, { useContext } from "react";
 
