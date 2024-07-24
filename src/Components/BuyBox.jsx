@@ -93,6 +93,7 @@ const StyledBuyBox = styled.div`
   .price-original {
     font-size: 32px;
     color: ${Cores.darkGray2};
+    
   }
   .price-discount {
     font-size: 16px;
@@ -105,8 +106,9 @@ const StyledBuyBox = styled.div`
 
   .descricao-sub {
     font-size: 14px;
-    color: ${Cores.darkGray2};
-    margin-top: 10px;
+    font-weight: bold;
+    color: ${Cores.lightGray};
+    margin-top: 5px;
   }
 
   .texto-descricao {
@@ -259,7 +261,7 @@ export default function BuyBox({ name, reference, pontuacao, rating, price, pric
               <img className="star" src={star5} alt="Star" />
             </div>
             <img className="pontuacao" src={pontos} alt="Pontuacao" />
-            <span className="avaliacao-rating">{rating} (avaliações) </span>
+            <span className="avaliacao-rating">{rating}</span>
           </div>
 
           <div className="price-container">
@@ -272,6 +274,11 @@ export default function BuyBox({ name, reference, pontuacao, rating, price, pric
                 R$ {priceDiscount}
               </span>
             </div>
+          </div>
+
+          <div className="produto-container">
+            <p className="descricao-sub">Descrição do produto</p>
+            <p className="texto-descricao">{description}</p>
           </div>
 
           <div className="tamanho-container">
@@ -289,10 +296,7 @@ export default function BuyBox({ name, reference, pontuacao, rating, price, pric
             </div>
           </div>
 
-          <div className="produto-container">
-            <p className="descricao-sub">Descrição do produto</p>
-            <p className="texto-descricao">{description}</p>
-          </div>
+        
 
           <div className="cores-container">
             <p className="descricao-sub">Cores</p>
