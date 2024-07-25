@@ -3,7 +3,7 @@ import { Cores } from "./Cores"
 import tshirt from '../assets/tshirtIcon.png'
 import calca from '../assets/calcaIcon.png'
 import fones from '../assets/fonesIcon.png'
-import sneakers from '../assets/sneakersIcon'
+import sneakers from '../assets/sneakersIcon.png'
 
 
 
