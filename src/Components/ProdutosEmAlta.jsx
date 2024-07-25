@@ -3,7 +3,6 @@ import styled from "styled-components"
 import { Cores } from "./Cores"
 import "/src/assets/right24px.png"
 import { Link } from "react-router-dom"
-import setaProdutosAlta from './assets/Right24px.png'
 
 let StyledTitle = styled.div`
 
@@ -44,7 +43,7 @@ export default function ProdutosEmAlta({produto=[]}) {
       <StyledTitle>
          <h1>Produtos em alta</h1>
          
-         <Link to="/ProductListing">Ver todos <img src={setaProdutosAlta} alt=""/></Link>
+         <Link to="/ProductListing">Ver todos <img src="\src\assets\Right24px.png" alt=""/></Link>
       </StyledTitle>
 
       <StyledProdutosEmAlta>
