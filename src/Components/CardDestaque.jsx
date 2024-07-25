@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom"
 import Buttons from "./Buttons"
 import { styled } from "styled-components"
+import starWars from'./assets/Starwars.png'
+import tenisPreto from'./assets/tenispreto.png'
+import foneDest from'./assets/fonedest.png'
+
 
 
 let  StyledCardDestaque = styled.div`
-
+    
     .tituloCards {
         margin: 40px 0px 0px 95px;
         font-weight: bold;
@@ -64,7 +68,7 @@ let  StyledCardDestaque = styled.div`
     .card1 {
         background-position: 162px 7px;
         background-repeat: no-repeat;
-        background-image: url(src/assets/Starwars.png);
+        background-image: url({src/assets/Starwars.png});
     }
     .card2 {
         background-position: 162px -1px;
