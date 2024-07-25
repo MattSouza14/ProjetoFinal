@@ -1,5 +1,5 @@
 import './ProductFilter.css'
-import '../assets/setaProdutos.png'
+import seta from '../assets/setaProdutos.png'
 export default function ProductFilter(){
 return(
 <div className="containerFilter">
@@ -7,7 +7,7 @@ return(
         <p><span className="text">Resultados para “Tênis” -</span> 389 produtos</p>
     </div>
     <div className="containerSelect">
-      <p><span className="text">Ordernar por: </span>mais relevantes <span><img src="src\assets\setaProdutos.png" alt=""  className='imgSeta'/></span></p>
+      <p><span className="text">Ordernar por: </span>mais relevantes <span><img src={seta} alt=""  className='imgSeta'/></span></p>
     </div>
 </div>
 
