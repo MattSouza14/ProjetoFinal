@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 import Buttons from "./Buttons"
 import { styled } from "styled-components"
-import starWars from'./assets/Starwars.png'
-import tenisPreto from'./assets/tenispreto.png'
-import foneDest from'./assets/fonedest.png'
+import './assets/Starwars.png'
+import './assets/tenispreto.png'
+import './assets/fonedest.png'
 
 
 
