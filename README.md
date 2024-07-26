@@ -2,15 +2,15 @@
 
 ## Sobre o Projeto
 
-Este é um projeto de front-end desenvolvido pelos alunos do programa Geração Tech e tem como objetivo demonstrar o uso das habilidades adquiridas em sala de aula. A realização deste trabalho se deve ao bom desempenho em equipe e à valiosa tutoria da professora [Káthia Rocha](#) e [Nayara Calenzo](#) que nos acompanhou e deu suporte nesta importante tarefa.
+Este é um projeto de front-end desenvolvido pelos alunos do programa Geração Tech e tem como objetivo demonstrar o uso das habilidades adquiridas em sala de aula. A realização deste trabalho se deve ao bom desempenho em equipe e à valiosa tutoria da professora [Káthia Rocha](https://github.com/techcomkathia) e [Nayara Calenzo](#) que nos acompanhou e deu suporte nesta importante tarefa.
 
 ## Equipe
 
-- **Lucas Teles** - [GitHub](#)
-- **Paulo** - [GitHub](#)
-- **Pedro Matias** - [GitHub](#)
-- **Vinicius Alves** - [GitHub](#)
-- **Mateus Souza** - [GitHub](#)
+- **Lucas Teles** - [GitHub](https://github.com/magicianLucas)
+- **Paulo** - [GitHub](https://github.com/paulomtx)
+- **Pedro Matias** - [GitHub](https://github.com/PedroMatias1998)
+- **Vinicius Alves** - [GitHub](https://github.com/Vicore123)
+- **Mateus Souza** - [GitHub](https://github.com/MattSouza14)
 
 ## Tecnologias Usadas
 

@@ -13,7 +13,7 @@ let StyledFilterGroup = styled.div`
     background: ${Cores.white};
     padding: 30px;
     border-radius: 4px;
-    margin-top: 25px;
+    margin-top: 80px;
 }
 .box h2{
     font-size: 16px;

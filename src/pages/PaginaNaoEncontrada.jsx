@@ -1,17 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components'; // Importe correto do styled-components
+import './PaginaNaoEncontrada.css'; // Importe correto do arquivo CSS local
 
-const TituloContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
-`
-
-const Titulo = styled.h1`
-  font-weight: bold;
-  font-size: 40px; 
-`
+// Estilização usando styled-components (opcional)
 
 export default function PaginaNaoEncontrada() {
   return (
