@@ -6,7 +6,7 @@ Este é um projeto de front-end desenvolvido pelos alunos do programa Geração 
 
 ## Equipe
 
-- **Lucas Teles** - [GitHub](#)
+- **Lucas Teles** - [GitHub](https://github.com/magicianLucas/atv-javascript)
 - **Paulo** - [GitHub](#)
 - **Pedro Matias** - [GitHub](#)
 - **Vinicius Alves** - [GitHub](#)
