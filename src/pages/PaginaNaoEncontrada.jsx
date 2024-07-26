@@ -1,14 +1,20 @@
 import React from 'react';
 import styled from 'styled-components'; // Importe correto do styled-components
 
+let StyledTitle = styled.div`
 
-// Estilização usando styled-components (opcional)
+display: flex;
+justify-content: center;
+padding: 50px;
+background-color: #F9F8FE;
+
+`
 
 export default function PaginaNaoEncontrada() {
   return (
-    <TituloContainer>
-      <Titulo>Página não encontrada</Titulo>
-    </TituloContainer>
+    <StyledTitle>
+      <h1>Página não encontrada : (</h1>
+    </StyledTitle>
   );
 }
 

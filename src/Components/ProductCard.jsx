@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import { Cores } from './Cores'
+
 
 let StyledProductCard = styled.div`
 
@@ -47,7 +49,7 @@ let StyledProductCard = styled.div`
     z-index: 1;
 
     background: #E7FF86;
-    color:var(--dark-gray-2);
+    color:${Cores.darkGray2};
 
     padding: 5px 15px;
 
@@ -60,7 +62,7 @@ let StyledProductCard = styled.div`
     visibility: hidden; 
 }
 .image-container{
-    background-color: var(--white);
+    background-color: ${Cores.white};
     width: 292px;
     height: 321px;
 }
@@ -77,7 +79,7 @@ let StyledProductCard = styled.div`
     z-index: 1;
 
     background: #E7FF86;
-    color:var(--dark-gray-2);
+    color:${Cores.darkGray2};
 
     padding: 5px 15px;
 
@@ -93,14 +95,14 @@ let StyledProductCard = styled.div`
     font-size: 12px;
     font-weight: bold;
     line-height: 24px;
-    color: var(--light-gray);
+    color: ${Cores.lightGray};
     margin: 18px 0 0 0;
     letter-spacing: 0.75px;
 }
 
 .descricao {
     font-size: 24px;
-    color: var(--dark-gray-2);
+    color: ${Cores.darkGray2};
     line-height: 24px;
     letter-spacing: 0.75px;
    
@@ -108,21 +110,21 @@ let StyledProductCard = styled.div`
 }
 .priceDiscount{
     font-size: 24px;
-    color: var(--dark-gray);
+    color: ${Cores.darkGray};
     line-height: 38px;
     font-weight: bold;
     letter-spacing: 0.75px;
 }
 .price{
     font-size: 24px;
-    color: var(--light-gray);
+    color: ${Cores.lightGray};
     line-height: 38px;
     letter-spacing: 0.75px;
     margin-right: 8px;
 }
 
 .price.normal{
-    color: var(--dark-gray);
+    color: ${Cores.darkGray};
     font-weight: bold;
 }
 `

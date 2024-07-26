@@ -51,8 +51,8 @@ export default function ProductViewPage(){
               reference={"Casual | Nike | REF:38416711"}
               pontuacao={4.7}
               rating={"(90 avaliações)"}
-              price={279.00}
-              priceDiscount={219.00}
+              price={'219,00'}
+              priceDiscount={'219,00'}
               description={<><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Quod repudiandae</p><p> laudantium, accusamus vero esse alias debitis
                  sed autem ad omnis </p><p>voluptas vitae odit,quasi obcaecati eaquenisi optio illo voluptatem.</p></>}
               >
