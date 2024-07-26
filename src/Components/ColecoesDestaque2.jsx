@@ -1,5 +1,11 @@
 import styled from "styled-components"
 import { Cores } from "./Cores"
+import tshirt from '../assets/tshirtIcon.png'
+import calca from '../assets/calcaIcon.png'
+import fones from '../assets/fonesIcon.png'
+import sneakers from '../assets/sneakersIcon.png'
+
+
 
 let StyledDiv = styled.div`
 
@@ -69,31 +75,31 @@ export default function ColecoesDestaque2 () {
          
          <div>
             <div className="sombra">
-               <img src="./src/assets/tshirtIcon.png" alt="tshirtIcon"/>
+               <img src={tshirt} alt="tshirtIcon"/>
             </div>
             <p>Camisetas</p>
          </div>
          <div>
             <div>
-               <img src="./src/assets/calcaIcon.png" alt="calcaIcon"/>
+               <img src={calca} alt="calcaIcon"/>
             </div>
             <p>Calças</p>
          </div>
          <div>
             <div>
-               <img src="./src/assets/calcaIcon.png" alt="calcaIcon"/>
+               <img src={calca} alt="calcaIcon"/>
             </div>
             <p>Bonés</p>
          </div>
          <div>
             <div>
-               <img src="./src/assets/fonesIcon.png" alt="fonesIcon"/>
+               <img src={fones} alt="fonesIcon"/>
             </div>
             <p>Headphones</p>
          </div>
          <div>
             <div>
-               <img src="./src/assets/sneakersIcon.png" alt="sneakersIcon"/>
+               <img src={sneakers} alt="sneakersIcon"/>
             </div>
             <p>Tênis</p>
          </div>
