@@ -1,5 +1,5 @@
 # Projeto Front-End Geração Tech
-## Desenvolvimento Web 
+
 
 
 <!-- FAZER UMA DESCRIÇÃO SOBRE O PROJETO DO CURSO -->
@@ -30,39 +30,6 @@
 ### Instruções: 
 - Após realizar o clone do projeto pelo o terminal execute o comando `npm install` para instalar o node_modules
 
-
-### Organização dos Arquivos
-├── src/
-│   ├── compoments/
-│   │   ├── BannerPrincipal.jsx 
-│   │   ├── Buttons.jsx
-│   │   ├── BuyBox.jsx 
-│   │   ├── CardDestaque.jsx
-│   │   ├── ColecoesDestaque.jsx 
-│   │   ├── Cores.jsx 
-│   │   ├── ProductCard.jsx
-│   │   ├── ProductCard3.jsx
-│   │   ├── ProductFilter.css
-│   │   ├── ProductFilter.css
-│   │   ├── ProductListing.jsx
-│   │   ├── ProdutosEmAlta.jsx
-│   │   ├── ProdutosRelacionados.jsx
-│   │   ├── Section.css
-│   │   └── Section.jsx
-│   ├── context/
-│   │   └── Contexto.jsx  
-│   ├── pages/
-│   │    ├── HomePage.jsx - Mateus e Pedro
-│   │    ├── Layout.jsx - Mateus
-│   │    ├── PaginaNaoEncontrada.jsx - Mateus e Lucas
-│   │    ├── ProductListingPage.jsx - Pedro e Vinícius 
-│   │    └── ProductViewPage.jsx - Lucas, Paulo e Vinícius 
-│   └── routes/
-│       └── Rotas
-│
-├── App.js
-├── index.css
-└── main.jsx
 
 
 
