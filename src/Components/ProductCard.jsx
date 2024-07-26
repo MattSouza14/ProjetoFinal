@@ -67,7 +67,7 @@ let StyledProductCard = styled.div`
 .image-container img {
     margin: -40px 20px 42px -26px;
 }
-.overlay {
+.overflow {
     width: 96px;
     height: 32px;
 
@@ -86,7 +86,7 @@ let StyledProductCard = styled.div`
     line-height: 22px;
     font-weight: bold;
 }
-.overlay.empty {
+.overflow.empty {
     visibility: hidden; 
 }
 .title{
