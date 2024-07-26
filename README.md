@@ -50,7 +50,7 @@ Este é um projeto de front-end desenvolvido pelos alunos do programa Geração 
 5. **Inicie o projeto:**
     `npm run dev`
 
-
+```
 ├── /public
 │   ├── index.html
 │   
@@ -97,7 +97,7 @@ Este é um projeto de front-end desenvolvido pelos alunos do programa Geração 
 ├── README.md
 ├── vercel.json
 └── vite.config.js
-
+```
 
 
 
