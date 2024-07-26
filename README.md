@@ -52,7 +52,7 @@ Este é um projeto de front-end desenvolvido pelos alunos do programa Geração 
 
 ```
 ├── /public
-│   ├── index.html
+│   
 │   
 ├── /src
 │   ├── /Components
