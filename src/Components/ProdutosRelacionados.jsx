@@ -1,7 +1,7 @@
 import ProductCard3 from "./ProductCard3"
 import styled from "styled-components"
 import { Cores } from "./Cores"
-import "/src/assets/right24px.png"
+import seta from "/src/assets/right24px.png"
 import{NavLink, Link, useLocation} from 'react-router-dom'
 
 let StyledTitle = styled.div`
@@ -10,11 +10,13 @@ let StyledTitle = styled.div`
    margin-top: 70px;
    display: flex;
    justify-content: space-between;
+   margin-top: 71px;  
+   
    h1 {
       font-weight: bold;
       color: ${Cores.darkGray2};
       margin-left: 100px;
-      margin-top: 71px;
+
    }
    a {
       color: ${Cores.primary};
@@ -46,7 +48,7 @@ export default function ProdutosEmAlta({produto=[]}) {
       <StyledTitle>
          <h1>Produtos Relacionados</h1>
          <Link to="/ProductListing">
-            Ver todos <img src="\src\assets\Right24px.png" alt=""/>
+            Ver todos <img src={seta} alt=""/>
          </Link>
       </StyledTitle>
 

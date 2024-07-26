@@ -6,12 +6,11 @@ import './PaginaNaoEncontrada.css'; // Importe correto do arquivo CSS local
 
 export default function PaginaNaoEncontrada() {
   return (
-    <div className="titulo">
-      
-      <h1> Página não encontrada</h1>
-
-    </div>
-  )
+    <TituloContainer>
+      <Titulo>Página não encontrada</Titulo>
+    </TituloContainer>
+  );
 }
+
 
 
