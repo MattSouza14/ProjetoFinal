@@ -3,6 +3,7 @@ import carrinho from '../assets/carrinhoHeader.png'
 import styled from 'styled-components'
 import Buttons from './Buttons'
 import{NavLink, Link, useLocation} from 'react-router-dom'
+import { Cores } from './Cores'
 
 export let a = 'a1'
 
@@ -35,14 +36,14 @@ const HeaderStyled = styled.div`
             margin-left: 30px;
             border: none;
             border-radius: 8px;
-            background-color: var(--light-gray-3);
+            background-color: ${Cores.lightGray3};
         }
         input[type="text"]:focus {
                 outline: none;
             }
         
         a{
-            color: var(--dark-gray);
+            color: ${Cores.darkGray};
             margin-left: 50px;
         }
 
@@ -54,7 +55,7 @@ const HeaderStyled = styled.div`
     .cadastre-se {
         font-weight: 400;
         font-size: 16px;
-        color: var(--dark-gray-2);
+        color: ${Cores.darkGray2};
         text-underline-offset: 5px;
     }
 
@@ -68,7 +69,7 @@ const HeaderStyled = styled.div`
         justify-content: space-between;
     }
     .a-focus{
-        color: var(--primary);
+        color: ${Cores.primary};
         font-weight: 700;
         font-size: 16px;
         font-weight: bold;
@@ -77,7 +78,7 @@ const HeaderStyled = styled.div`
     }
     
     .a1{
-        color: var(--dark-gray-2);
+        color: ${Cores.darkGray2};
         font-weight: 400;
         font-size: 16px;
         text-decoration: none;
