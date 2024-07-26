@@ -267,11 +267,11 @@ export default function BuyBox({ name, reference, pontuacao, rating, price, pric
           <div className="price-container">
             <div>
               <span className="price-cifrao">R$</span>
-              <span className="price-original" style={{ textDecoration: 'line-through', marginLeft: '8px' }}>
-                {price}
+              <span className="price-original" style={{ marginLeft: '8px' }}>
+                {priceDiscount}
               </span>
-              <span className="price-discount" style={{ marginLeft: '16px' }}>
-                R$ {priceDiscount}
+              <span className="price-discount" style={{ marginLeft: '16px', textDecoration: 'line-through'}}>
+                {price}
               </span>
             </div>
           </div>

@@ -1,77 +1,75 @@
 
 import { Link } from 'react-router-dom';
-import '../Components/Section.css'; 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import tenis from '../assets/tenis.png'
 import Buttons from './Buttons'
 
-import '/src/assets/Ellipse11.png'
+import Ellipse from '/src/assets/Ellipse11.png'
 
 import React from 'react';
 import styled from 'styled-components';
+import { Cores } from './Cores';
 
 let StyledJordan = styled.div`
+
   .container {
-  width: 1340px; 
-  background: var(--white);
-  display: flex; 
-  align-items: center;
-  padding: 20px; 
-}
+    width: 1340px; 
+    background: ${Cores.white};
+    display: flex; 
+    align-items: center;
+    padding: 20px; 
+  }
+  .img-fluid {
+    max-width: 30%;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
 
-.jordan {
-  width: 400px;
-  margin-top: 20px;
-  margin-left: 40px;
-}
+  .ellipse {
+    max-width: 40%;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
 
-.text-container {
-  flex: 1;
-  display: flex; 
-  flex-direction: column; 
-  margin-left: 50px;
-  margin-right: 50px;
-}
+  .text-container {
+    flex: 1;
+    display: flex; 
+    flex-direction: column; 
+  }
 
-.section-title {
-  font-size: 18px; 
-  color: var(--primary); 
-  margin-bottom: 10px; 
-}
+  .section-title {
+    font-size: 14px; 
+    font-weight: bold;
+    color: ${Cores.primary}; 
+    margin-bottom: 10px; 
+  }
 
-.titleAirJordan {
-  font-size: 32px; 
-  color: var(--darkgray2);
-  margin-top: 0; 
-  margin-bottom: 10px; 
-}
+  .titleAirJordan {
+    font-size: 48px; 
+    color: ${Cores.darkGray2};
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+  }
 
-.sectionDescrption {
-  font-size: 16px; 
-  line-height: 1.5; 
-  color: var(--darkgray2);
-  margin-top: 5px; 
-}
+  .sectionDescrption {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: ${Cores.darkGray3};
+    margin-top: 5px; 
+  }
 
-.imagem {
-
-  margin-top: 100px;
-  
-  background-image: url('/src/assets/Ellipse11.png');
-  background-size: 400px;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 470px;
-  height: 400px;
-}
-
-
+  .botao {
+    background-image: ${Ellipse};
+    width: 500;
+  }
 
 
 `
 
 export default function Section() {
   return (
+  <StyledJordan>
     <div class="container">
           <img src={tenis} class='img-fluid' alt='tenis' />
       <div class="text-container">
@@ -86,8 +84,8 @@ export default function Section() {
               <Buttons type={'PrimaryButton'} content={'Ver Oferta'}></Buttons>
             </Link>
       </div>
-  
     </div>
+</StyledJordan>
   )
 }
 
