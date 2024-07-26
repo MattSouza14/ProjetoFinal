@@ -1,11 +1,9 @@
 
-import { NavLink, Link } from 'react-router-dom';
-import '../Components/Section.css'; // Ajuste o caminho correto para o arquivo CSS
+import { Link } from 'react-router-dom';
+import '../Components/Section.css'; 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import tenis from '../assets/tenis.png'
-import  Ellipse11  from '../assets/Ellipse11.png';
 import Buttons from './Buttons'
-import { Cores } from './Cores';
 
 import '/src/assets/Ellipse11.png'
 
