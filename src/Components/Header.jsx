@@ -96,7 +96,9 @@ export default function Header() {
             <div className="header1">
 
                 <div className="logo">
+                    <Link to='/'>
                     <img src={logo} alt="Digital College logo" width="253px" height="44px"/>
+                    </Link>
                 </div>
             
                 <div className="">
